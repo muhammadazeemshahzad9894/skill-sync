@@ -1,0 +1,62 @@
+{"stage": "candidate_extraction", "n_candidates": 20, "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "total_s": 198.0273, "avg_per_candidate_s": 9.9006, "p50_s": 9.7044, "p90_s": 12.4283, "errors": 0, "ts_utc": "2026-01-19T08:18:22.071457Z"}
+{"stage": "explanation_report", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "total_s": 33.2102, "ts_utc": "2026-01-19T08:21:33.147016Z"}
+{"stage": "candidate_extraction", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "total_s": 212.0013, "ts_utc": "2026-01-19T08:47:37.884218Z", "n_candidates": 20, "avg_per_candidate_s": 10.5993, "p50_s": 10.5215, "p90_s": 12.2805, "errors": 0}
+{"stage": "project_extraction", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "total_s": 3.3638, "ts_utc": "2026-01-19T08:49:15.686218Z", "description_chars": 316}
+{"stage": "candidate_extraction", "total_s": 207.2319, "ts_utc": "2026-01-19T09:42:53.910179+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 20}
+{"stage": "project_extraction", "total_s": 2.4999, "ts_utc": "2026-01-19T09:45:00.490185+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 138}
+{"stage": "explanation_report", "total_s": 30.7422, "ts_utc": "2026-01-19T09:45:52.656746+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 420.3567, "ts_utc": "2026-01-19T14:00:22.204222+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 30}
+{"stage": "project_extraction", "total_s": 0.0028, "ts_utc": "2026-01-19T14:00:59.290556+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 138}
+{"stage": "project_extraction", "total_s": 0.002, "ts_utc": "2026-01-19T14:02:06.431078+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 138}
+{"stage": "explanation_report", "total_s": 71.7693, "ts_utc": "2026-01-19T14:04:35.128122+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "explanation_report", "total_s": 52.8655, "ts_utc": "2026-01-19T14:05:18.471125+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 155.6563, "ts_utc": "2026-01-19T14:17:44.693465+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 10}
+{"stage": "project_extraction", "total_s": 2.932, "ts_utc": "2026-01-19T14:18:19.736921+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 17.5898, "ts_utc": "2026-01-19T14:19:28.752171+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "explanation_report", "total_s": 21.0009, "ts_utc": "2026-01-19T14:21:21.670207+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 562.3492, "ts_utc": "2026-01-19T14:32:44.233455+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 40}
+{"stage": "project_extraction", "total_s": 3.0994, "ts_utc": "2026-01-19T14:33:02.000165+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 263}
+{"stage": "explanation_report", "total_s": 45.9354, "ts_utc": "2026-01-19T14:34:48.688472+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 78.3556, "ts_utc": "2026-01-19T14:42:13.137014+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 5}
+{"stage": "candidate_extraction", "total_s": 73.7326, "ts_utc": "2026-01-19T14:45:09.509727+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 5}
+{"stage": "project_extraction", "total_s": 4.7333, "ts_utc": "2026-01-19T14:45:39.394102+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 28.7265, "ts_utc": "2026-01-19T14:46:41.471129+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 70.7229, "ts_utc": "2026-01-19T14:58:53.176119+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 5}
+{"stage": "project_extraction", "total_s": 3.3249, "ts_utc": "2026-01-19T15:06:19.720864+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 18.5062, "ts_utc": "2026-01-19T15:06:57.400093+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 29.4628, "ts_utc": "2026-01-19T15:22:41.540754+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 2}
+{"stage": "project_extraction", "total_s": 3.7017, "ts_utc": "2026-01-19T15:23:11.894026+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "project_extraction", "total_s": 0.0023, "ts_utc": "2026-01-19T15:23:46.881686+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "project_extraction", "total_s": 0.0023, "ts_utc": "2026-01-19T15:23:53.777610+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 22.7113, "ts_utc": "2026-01-19T15:26:24.786030+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 33.0744, "ts_utc": "2026-01-19T15:32:14.903680+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 2}
+{"stage": "project_extraction", "total_s": 3.0786, "ts_utc": "2026-01-19T15:32:47.004956+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 18.1853, "ts_utc": "2026-01-19T15:33:26.286059+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "explanation_report", "total_s": 17.2477, "ts_utc": "2026-01-19T15:37:23.408430+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "explanation_report", "total_s": 18.6872, "ts_utc": "2026-01-19T15:37:46.256992+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "explanation_report", "total_s": 17.8088, "ts_utc": "2026-01-19T15:39:18.472786+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 39.4218, "ts_utc": "2026-01-19T15:43:53.127838+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 3}
+{"stage": "project_extraction", "total_s": 2.886, "ts_utc": "2026-01-19T15:44:25.378712+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 16.3476, "ts_utc": "2026-01-19T15:45:17.667313+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 31.5723, "ts_utc": "2026-01-19T17:18:41.799206+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 2}
+{"stage": "project_extraction", "total_s": 2.9715, "ts_utc": "2026-01-19T17:20:35.887406+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 17.7158, "ts_utc": "2026-01-19T17:22:22.868529+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "project_extraction", "total_s": 3.8443, "ts_utc": "2026-01-20T13:09:52.024915+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "project_extraction", "total_s": 0.003, "ts_utc": "2026-01-20T13:12:08.748876+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "candidate_extraction", "total_s": 2494.1263, "ts_utc": "2026-01-20T13:54:42.251325+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 200}
+{"stage": "explanation_report", "total_s": 46.7097, "ts_utc": "2026-01-20T14:06:26.020552+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 140.156, "ts_utc": "2026-01-20T14:51:23.221504+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 10}
+{"stage": "project_extraction", "total_s": 4.9134, "ts_utc": "2026-01-20T14:51:51.247870+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "candidate_extraction", "total_s": 3070.839, "ts_utc": "2026-01-20T15:43:59.445583+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 200}
+{"stage": "project_extraction", "total_s": 0.0022, "ts_utc": "2026-01-20T15:44:35.159406+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 316}
+{"stage": "explanation_report", "total_s": 52.4736, "ts_utc": "2026-01-20T15:51:36.181134+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "explanation_report", "total_s": 48.1787, "ts_utc": "2026-01-20T15:57:48.503354+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "candidate_extraction", "total_s": 159.2147, "ts_utc": "2026-01-20T16:24:14.085216+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 10}
+{"stage": "project_extraction", "total_s": 2.8146, "ts_utc": "2026-01-20T16:25:20.513107+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 254}
+{"stage": "candidate_extraction", "total_s": 154.9479, "ts_utc": "2026-01-20T16:44:12.816662+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 10}
+{"stage": "project_extraction", "total_s": 2.7445, "ts_utc": "2026-01-20T16:45:47.036785+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 224}
+{"stage": "project_extraction", "total_s": 4.976, "ts_utc": "2026-01-20T17:15:03.262242+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 254}
+{"stage": "project_extraction", "total_s": 0.0023, "ts_utc": "2026-01-20T17:17:35.385053+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 254}
+{"stage": "explanation_report", "total_s": 24.6976, "ts_utc": "2026-01-20T17:18:32.420417+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
+{"stage": "project_extraction", "total_s": 18.9836, "ts_utc": "2026-01-20T18:37:54.163615+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 315}
+{"stage": "explanation_report", "total_s": 26.0425, "ts_utc": "2026-01-20T18:41:31.826852+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}

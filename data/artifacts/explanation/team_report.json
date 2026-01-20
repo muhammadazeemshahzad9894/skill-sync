@@ -1,0 +1,1288 @@
+{
+  "context": {
+    "project_requirements": {
+      "technical_requirements": {
+        "skills": [
+          "React",
+          "Python",
+          "SQL",
+          "Machine Learning"
+        ],
+        "tools": [
+          "Figma"
+        ],
+        "roles": [
+          "Developer, front-end",
+          "Developer, back-end",
+          "Data scientist or machine learning specialist"
+        ]
+      },
+      "constraints": {
+        "team_size": 5,
+        "project_hours_per_week": 40.0,
+        "required_hours_per_person": 8.0
+      }
+    },
+    "project_technical_requirements": {
+      "roles": [
+        "Developer, front-end",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist"
+      ],
+      "skills": [
+        "React",
+        "Python",
+        "SQL",
+        "Machine Learning"
+      ],
+      "tools": [
+        "Figma"
+      ]
+    },
+    "belbin_glossary": {
+      "Teamworker": "Supportive, harmony-focused, helps people collaborate",
+      "Shaper": "Drives progress, pushes for decisions, keeps urgency high",
+      "Coordinator": "Aligns goals, delegates, organizes the group",
+      "Implementer": "Turns ideas into practical steps and steady execution",
+      "Monitor-Evaluator": "Analytical, weighs pros/cons, cautious decisions",
+      "Plant": "Creative idea generator, novel approaches",
+      "Resource-Investigator": "Explores options, brings external ideas/opportunities",
+      "Completer-Finisher": "Detail-oriented, quality control, closes tasks strongly"
+    },
+    "teams": [
+      {
+        "team_number": 1,
+        "member_ids": [
+          "2",
+          "5",
+          "4",
+          "3",
+          "10"
+        ],
+        "algo_rows": [
+          {
+            "Candidate ID": "2",
+            "Role": "Unknown",
+            "Req match (skills and tools)": "React, Python, SQL",
+            "Req coverage %": 60.0,
+            "Belbin role": "Resource-Investigator",
+            "Comm style": "Async",
+            "Conflict style": "Avoid",
+            "Leadership": "Shared",
+            "Deadline": "Depends",
+            "Availability": 10,
+            "Fit": 0.5287,
+            "Avg dissim to teammates": 0.1422,
+            "Skills (sample)": "Bash/Shell (all shells), C#, HTML/CSS, PowerShell, Python, Rust, SQL, TypeScript",
+            "Tools (sample)": "Chocolatey, Kubernetes, Make, npm, NuGet, Pip, pnpm, Terraform"
+          },
+          {
+            "Candidate ID": "5",
+            "Role": "Developer, back-end",
+            "Req match (skills and tools)": "None",
+            "Req coverage %": 0.0,
+            "Belbin role": "Shaper",
+            "Comm style": "Async",
+            "Conflict style": "Avoid",
+            "Leadership": "Shared",
+            "Deadline": "Strict",
+            "Availability": 10,
+            "Fit": 0.5669,
+            "Avg dissim to teammates": 0.1685,
+            "Skills (sample)": "C#, JavaScript, MATLAB, Microsoft SQL Server, MongoDB, PostgreSQL, Amazon Web Services (AWS), Google Cloud",
+            "Tools (sample)": "Docker, NuGet, Rider, Visual Studio, Visual Studio Code"
+          },
+          {
+            "Candidate ID": "4",
+            "Role": "Unknown",
+            "Req match (skills and tools)": "Python",
+            "Req coverage %": 20.0,
+            "Belbin role": "Implementer",
+            "Comm style": "Mixed",
+            "Conflict style": "Mediation",
+            "Leadership": "Shared",
+            "Deadline": "Depends",
+            "Availability": 10,
+            "Fit": 0.5122,
+            "Avg dissim to teammates": 0.1993,
+            "Skills (sample)": "Assembly, Bash/Shell (all shells), C, C++, Go, HTML/CSS, Java, JavaScript",
+            "Tools (sample)": "Docker, Google Test, Make, npm, Emacs, IPython, Jupyter Notebook/JupyterLab, Neovim"
+          },
+          {
+            "Candidate ID": "3",
+            "Role": "Developer, back-end",
+            "Req match (skills and tools)": "None",
+            "Req coverage %": 0.0,
+            "Belbin role": "Coordinator",
+            "Comm style": "Mixed",
+            "Conflict style": "Mediation",
+            "Leadership": "Lead",
+            "Deadline": "Strict",
+            "Availability": 10,
+            "Fit": 0.4837,
+            "Avg dissim to teammates": 0.1947,
+            "Skills (sample)": "C#, HTML/CSS, JavaScript, PowerShell, TypeScript, Cosmos DB, Microsoft SQL Server, MongoDB",
+            "Tools (sample)": "MSBuild, NuGet, Visual Studio Solution, Visual Studio, Visual Studio Code"
+          },
+          {
+            "Candidate ID": "10",
+            "Role": "Developer, full-stack",
+            "Req match (skills and tools)": "React, SQL",
+            "Req coverage %": 40.0,
+            "Belbin role": "Coordinator",
+            "Comm style": "Mixed",
+            "Conflict style": "Avoid",
+            "Leadership": "Lead",
+            "Deadline": "Flexible",
+            "Availability": 5,
+            "Fit": 0.4354,
+            "Avg dissim to teammates": 0.1926,
+            "Skills (sample)": "Bash/Shell (all shells), HTML/CSS, Java, JavaScript, SQL, TypeScript, Cockroachdb, Dynamodb",
+            "Tools (sample)": "Bun, Dagger, Docker, Homebrew, Kubernetes, npm, pnpm, Vite"
+          }
+        ],
+        "members": [
+          {
+            "candidate_id": "2",
+            "metadata": {
+              "dev_type": "Unknown",
+              "work_experience_years": "20.0",
+              "years_code": "20",
+              "employment": "Employed, full-time",
+              "org_size": "10,000 or more employees",
+              "industry": "Unknown"
+            },
+            "personality": {
+              "Belbin_team_role": "Resource-Investigator"
+            },
+            "collaboration": {
+              "communication_style": "Async",
+              "conflict_style": "Avoid",
+              "leadership_preference": "Shared",
+              "deadline_discipline": "Depends"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Medium"
+            },
+            "technical": {
+              "skills": [
+                "Bash/Shell (all shells)",
+                "C#",
+                "HTML/CSS",
+                "PowerShell",
+                "Python",
+                "Rust",
+                "SQL",
+                "TypeScript",
+                "Dynamodb",
+                "PostgreSQL",
+                "SQLite",
+                "Amazon Web Services (AWS)",
+                "Netlify",
+                "ASP.NET CORE",
+                "Flask",
+                "Next.js",
+                "Node.js",
+                "React",
+                "Apache Spark",
+                "Hugging Face Transformers",
+                "Roslyn"
+              ],
+              "tools": [
+                "Chocolatey",
+                "Kubernetes",
+                "Make",
+                "npm",
+                "NuGet",
+                "Pip",
+                "pnpm",
+                "Terraform",
+                "Visual Studio Code"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "10–20"
+            },
+            "candidate_input_text": "Candidate ID: 2\nWeeklyAvailabilityHours: 10–20\nEmployment: Employed, full-time\nYearsCode: 20\nDevType: Other (please specify):\nOrgSize: 10,000 or more employees\nIndustry: Other:\nWorkExp: 20.0\nICorPM: People manager\nLanguageHaveWorkedWith: Bash/Shell (all shells);C#;HTML/CSS;PowerShell;Python;Rust;SQL;TypeScript\nLanguageAdmired: Bash/Shell (all shells);HTML/CSS;PowerShell;Rust;TypeScript\nDatabaseHaveWorkedWith: Dynamodb;PostgreSQL;SQLite\nPlatformHaveWorkedWith: Amazon Web Services (AWS);Netlify\nWebframeHaveWorkedWith: ASP.NET CORE;Flask;Next.js;Node.js;React\nMiscTechHaveWorkedWith: Apache Spark;Hugging Face Transformers;Roslyn\nToolsTechHaveWorkedWith: Chocolatey;Kubernetes;Make;npm;NuGet;Pip;pnpm;Terraform\nNEWCollabToolsHaveWorkedWith: Visual Studio Code\nOpSysPersonalUse: Fedora;iOS;Windows;Windows Subsystem for Linux (WSL)\nAISearchDevHaveWorkedWith: Bing AI;ChatGPT\nAIToolCurrentlyUsing: Writing code;Search for answers;Generating content or synthetic data\nAIBen: Increase productivity;Greater efficiency;Speed up learning\nAIComplex: Good, but not great at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Imitating a person's likeness;Energy demand\nAIChallenges: Don’t trust the output or answers;Not everyone uses them\nFrustration: Number of software tools in use;Tracking my work;Showing my contributions\nPersonalityText: If I had to describe myself as a teammate, I’d say this: Most of the time I like working through written messages and updates instead of constant meetings. I like it when the team shares ownership and we make decisions together. I’d describe my natural team role as a Resource-Investigator: I’m curious and like exploring options and opportunities. When conflict appears I try to stay calm and avoid unnecessary confrontation. I try to give constructive feedback and I appreciate it in return. How strict I am with deadlines depends on the impact and the current workload.\nProfessionalTech: DevOps function;Automated testing;Observability tools;Knowledge sharing community;AI-assisted technology tool(s);Microservices;Developer portal or other central places to find tools/services;Continuous integration (CI) and (more often) continuous delivery;Innersource initiative\nProfessionalCloud: Cloud only (single or multi-cloud)"
+          },
+          {
+            "candidate_id": "5",
+            "metadata": {
+              "dev_type": "Developer, back-end",
+              "work_experience_years": "1.0",
+              "years_code": "2",
+              "employment": "Employed, full-time",
+              "org_size": "10 to 19 employees",
+              "industry": "Software Development"
+            },
+            "personality": {
+              "Belbin_team_role": "Shaper"
+            },
+            "collaboration": {
+              "communication_style": "Async",
+              "conflict_style": "Avoid",
+              "leadership_preference": "Shared",
+              "deadline_discipline": "Strict"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Unknown"
+            },
+            "technical": {
+              "skills": [
+                "C#",
+                "JavaScript",
+                "MATLAB",
+                "Microsoft SQL Server",
+                "MongoDB",
+                "PostgreSQL",
+                "Amazon Web Services (AWS)",
+                "Google Cloud",
+                "ASP.NET",
+                "ASP.NET CORE",
+                "FastAPI",
+                ".NET (5+)",
+                "RabbitMQ"
+              ],
+              "tools": [
+                "Docker",
+                "NuGet",
+                "Rider",
+                "Visual Studio",
+                "Visual Studio Code"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "10–20"
+            },
+            "candidate_input_text": "Candidate ID: 5\nWeeklyAvailabilityHours: 10–20\nEmployment: Employed, full-time\nYearsCode: 2\nDevType: Developer, back-end\nOrgSize: 10 to 19 employees\nIndustry: Software Development\nWorkExp: 1.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: C#;JavaScript;MATLAB\nLanguageAdmired: C#\nDatabaseHaveWorkedWith: Microsoft SQL Server;MongoDB;PostgreSQL\nPlatformHaveWorkedWith: Amazon Web Services (AWS);Google Cloud\nWebframeHaveWorkedWith: ASP.NET;ASP.NET CORE;FastAPI\nMiscTechHaveWorkedWith: .NET (5+) ;RabbitMQ\nToolsTechHaveWorkedWith: Docker;NuGet\nNEWCollabToolsHaveWorkedWith: Rider;Visual Studio;Visual Studio Code\nOpSysPersonalUse: Ubuntu;Windows\nAISearchDevHaveWorkedWith: ChatGPT;Google Gemini\nAIToolCurrentlyUsing: Learning about a codebase;Project planning;Writing code;Committing and reviewing code;Search for answers\nAIBen: Increase productivity;Greater efficiency;Speed up learning;Improve accuracy in coding\nAIComplex: Good, but not great at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Biased results that do not represent diverse viewpoints\nAIChallenges: AI tools lack context of codebase,  internal architecture, and/or company knowledge;Lack of proper training and education on new tools;Lack of executive buy-in;Not everyone uses them;We don’t have the right policies in place to reduce security risks\nFrustration: Tracking my work;Complexity of tech stack for build;Reliability of tools/systems used in work\nPersonalityText: In group projects, this is pretty much my style: Most of the time I like working through written messages and updates instead of constant meetings. I enjoy collaborating on direction instead of having a single strong leader. I really value respect and clear communication in any team. When conflict appears I try to stay calm and avoid unnecessary confrontation. Clear deadlines motivate me and I try hard to stick to them. I’d describe my natural team role as a Shaper: I’m driven and like to push the team to make progress.\nProfessionalTech: DevOps function;Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: Cloud only (single or multi-cloud)"
+          },
+          {
+            "candidate_id": "4",
+            "metadata": {
+              "dev_type": "Unknown",
+              "work_experience_years": "12.0",
+              "years_code": "19",
+              "employment": "Employed, full-time",
+              "org_size": "10 to 19 employees",
+              "industry": "Unknown"
+            },
+            "personality": {
+              "Belbin_team_role": "Implementer"
+            },
+            "collaboration": {
+              "communication_style": "Mixed",
+              "conflict_style": "Mediation",
+              "leadership_preference": "Shared",
+              "deadline_discipline": "Depends"
+            },
+            "learning_behavior": {
+              "learning_orientation": "Medium",
+              "knowledge_sharing": "Unknown"
+            },
+            "technical": {
+              "skills": [
+                "Assembly",
+                "Bash/Shell (all shells)",
+                "C",
+                "C++",
+                "Go",
+                "HTML/CSS",
+                "Java",
+                "JavaScript",
+                "Julia",
+                "Lua",
+                "Python",
+                "MongoDB",
+                "PostgreSQL",
+                "SQLite",
+                "Cloudflare",
+                "Google Cloud",
+                "Managed Hosting",
+                "Django",
+                "Flask",
+                "jQuery",
+                "Node.js",
+                "Vue.js",
+                "NumPy",
+                "Pandas",
+                "Scikit-Learn"
+              ],
+              "tools": [
+                "Docker",
+                "Google Test",
+                "Make",
+                "npm",
+                "Emacs",
+                "IPython",
+                "Jupyter Notebook/JupyterLab",
+                "Neovim",
+                "Vim",
+                "Visual Studio Code"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "10–20"
+            },
+            "candidate_input_text": "Candidate ID: 4\nWeeklyAvailabilityHours: 10–20\nEmployment: Employed, full-time\nYearsCode: 19\nDevType: Academic researcher\nOrgSize: 10 to 19 employees\nIndustry: Other:\nWorkExp: 12.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: Assembly;Bash/Shell (all shells);C;C++;Go;HTML/CSS;Java;JavaScript;Julia;Lua;Python\nLanguageAdmired: Bash/Shell (all shells);C;C++;JavaScript;Lua;Python\nDatabaseHaveWorkedWith: MongoDB;PostgreSQL;SQLite\nPlatformHaveWorkedWith: Cloudflare;Google Cloud;Managed Hosting\nWebframeHaveWorkedWith: Django;Flask;jQuery;Node.js;Vue.js\nMiscTechHaveWorkedWith: NumPy;Pandas;Scikit-Learn\nToolsTechHaveWorkedWith: Docker;Google Test;Make;npm\nNEWCollabToolsHaveWorkedWith: Emacs;IPython;Jupyter Notebook/JupyterLab;Neovim;Vim;Visual Studio Code\nOpSysPersonalUse: ChromeOS;Ubuntu\nAISearchDevHaveWorkedWith: ChatGPT;Claude;GitHub Copilot;Google Gemini;WolframAlpha\nAIToolCurrentlyUsing: Writing code;Documenting code\nAIBen: Increase productivity;Greater efficiency\nAIComplex: Bad at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Biased results that do not represent diverse viewpoints\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge;Lack of proper training and education on new tools;We don’t have the right policies in place to reduce security risks;They create more work (more code/PRs to review, etc.)\nFrustration: Amount of technical debt;Tracking my work;Showing my contributions;Patching/updating core components;Reliability of tools/systems used in work\nPersonalityText: This is roughly how I behave when I’m collaborating with others. I’d describe my natural team role as a Implementer: I’m practical and like turning ideas into concrete steps. I like a balance of async messages and live discussions, depending on the task. How strict I am with deadlines depends on the impact and the current workload. In conflicts I often act as a mediator and try to understand all sides. I enjoy collaborating on direction instead of having a single strong leader.\nProfessionalTech: DevOps function;Automated testing;Knowledge sharing community;Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: Hybrid (on-prem and cloud)"
+          },
+          {
+            "candidate_id": "3",
+            "metadata": {
+              "dev_type": "Developer, back-end",
+              "work_experience_years": "8.0",
+              "years_code": "18",
+              "employment": "Employed, full-time",
+              "org_size": "2 to 9 employees",
+              "industry": "Software Development"
+            },
+            "personality": {
+              "Belbin_team_role": "Coordinator"
+            },
+            "collaboration": {
+              "communication_style": "Mixed",
+              "conflict_style": "Mediation",
+              "leadership_preference": "Lead",
+              "deadline_discipline": "Strict"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Unknown"
+            },
+            "technical": {
+              "skills": [
+                "C#",
+                "HTML/CSS",
+                "JavaScript",
+                "PowerShell",
+                "TypeScript",
+                "Cosmos DB",
+                "Microsoft SQL Server",
+                "MongoDB",
+                "Redis",
+                "SQLite",
+                "Microsoft Azure",
+                "ASP.NET",
+                "ASP.NET CORE",
+                "Blazor",
+                "jQuery",
+                ".NET (5+)",
+                ".NET Framework (1.0 - 4.8)",
+                ".NET MAUI",
+                "Xamarin"
+              ],
+              "tools": [
+                "MSBuild",
+                "NuGet",
+                "Visual Studio Solution",
+                "Visual Studio",
+                "Visual Studio Code"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "10–20"
+            },
+            "candidate_input_text": "Candidate ID: 3\nWeeklyAvailabilityHours: 10–20\nEmployment: Employed, full-time\nYearsCode: 18\nDevType: Developer, back-end\nOrgSize: 2 to 9 employees\nIndustry: Software Development\nWorkExp: 8.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: C#;HTML/CSS;JavaScript;PowerShell;TypeScript\nLanguageAdmired: C#\nDatabaseHaveWorkedWith: Cosmos DB;Microsoft SQL Server;MongoDB;Redis;SQLite\nPlatformHaveWorkedWith: Microsoft Azure\nWebframeHaveWorkedWith: ASP.NET;ASP.NET CORE;Blazor;jQuery\nMiscTechHaveWorkedWith: .NET (5+) ;.NET Framework (1.0 - 4.8);.NET MAUI;Xamarin\nToolsTechHaveWorkedWith: MSBuild;NuGet;Visual Studio Solution\nNEWCollabToolsHaveWorkedWith: Visual Studio;Visual Studio Code\nOpSysPersonalUse: Android;Windows\nAISearchDevHaveWorkedWith: Bing AI;GitHub Copilot;Visual Studio Intellicode\nAIToolCurrentlyUsing: Writing code;Debugging and getting help;Search for answers\nAIBen: Increase productivity;Greater efficiency\nAIComplex: Very poor at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Biased results that do not represent diverse viewpoints\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge\nFrustration: Amount of technical debt;Reliability of tools/systems used in work\nPersonalityText: If I had to describe myself as a teammate, I’d say this: I really value respect and clear communication in any team. I’m comfortable switching between async and sync communication to fit the situation. I naturally tend to take the lead and organize things when the team needs direction. In conflicts I often act as a mediator and try to understand all sides. Clear deadlines motivate me and I try hard to stick to them. I’d describe my natural team role as a Coordinator: I’m good at organizing and bringing people together.\nProfessionalTech: Knowledge sharing community;Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: On-prem"
+          },
+          {
+            "candidate_id": "10",
+            "metadata": {
+              "dev_type": "Developer, full-stack",
+              "work_experience_years": "25.0",
+              "years_code": "30",
+              "employment": "Employed, full-time",
+              "org_size": "1,000 to 4,999 employees",
+              "industry": "Transportation, or Supply Chain"
+            },
+            "personality": {
+              "Belbin_team_role": "Coordinator"
+            },
+            "collaboration": {
+              "communication_style": "Mixed",
+              "conflict_style": "Avoid",
+              "leadership_preference": "Lead",
+              "deadline_discipline": "Flexible"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Medium"
+            },
+            "technical": {
+              "skills": [
+                "Bash/Shell (all shells)",
+                "HTML/CSS",
+                "Java",
+                "JavaScript",
+                "SQL",
+                "TypeScript",
+                "Cockroachdb",
+                "Dynamodb",
+                "Elasticsearch",
+                "PostgreSQL",
+                "Presto",
+                "Redis",
+                "Amazon Web Services (AWS)",
+                "Digital Ocean",
+                "Netlify",
+                "Gatsby",
+                "Next.js",
+                "Node.js",
+                "React",
+                "Spring Boot",
+                "Symfony",
+                "Apache Kafka",
+                "React Native",
+                "Spring Framework"
+              ],
+              "tools": [
+                "Bun",
+                "Dagger",
+                "Docker",
+                "Homebrew",
+                "Kubernetes",
+                "npm",
+                "pnpm",
+                "Vite",
+                "Webpack",
+                "Yarn",
+                "IntelliJ IDEA",
+                "Visual Studio Code",
+                "Xcode"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "5–10"
+            },
+            "candidate_input_text": "Candidate ID: 10\nWeeklyAvailabilityHours: 5–10\nEmployment: Employed, full-time\nYearsCode: 30\nDevType: Developer, full-stack\nOrgSize: 1,000 to 4,999 employees\nIndustry: Transportation, or Supply Chain\nWorkExp: 25.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: Bash/Shell (all shells);HTML/CSS;Java;JavaScript;SQL;TypeScript\nLanguageAdmired: HTML/CSS;Java;JavaScript;SQL;TypeScript\nDatabaseHaveWorkedWith: Cockroachdb;Dynamodb;Elasticsearch;PostgreSQL;Presto;Redis\nPlatformHaveWorkedWith: Amazon Web Services (AWS);Digital Ocean;Netlify\nWebframeHaveWorkedWith: Gatsby;Next.js;Node.js;React;Spring Boot;Symfony\nMiscTechHaveWorkedWith: Apache Kafka;React Native;Spring Framework\nToolsTechHaveWorkedWith: Bun;Dagger;Docker;Homebrew;Kubernetes;npm;pnpm;Vite;Webpack;Yarn\nNEWCollabToolsHaveWorkedWith: IntelliJ IDEA;Visual Studio Code;Xcode\nOpSysPersonalUse: MacOS\nAISearchDevHaveWorkedWith: ChatGPT;GitHub Copilot\nAIToolCurrentlyUsing: Learning about a codebase;Writing code;Documenting code;Debugging and getting help;Generating content or synthetic data\nAIBen: Increase productivity;Greater efficiency;Speed up learning\nAIComplex: Bad at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Imitating a person's likeness\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge\nFrustration: Complexity of tech stack for deployment;Complexity of tech stack for build\nPersonalityText: Here’s how I usually work when I’m in a team. I like a balance of async messages and live discussions, depending on the task. I often end up taking ownership of tasks and nudging the team forward. I don’t like heavy arguments and tend to step back rather than fight. I’m okay adjusting timelines if the scope changes and everyone is informed. For me it’s important that everyone feels heard and included. I’d describe my natural team role as a Coordinator: I’m good at organizing and bringing people together.\nProfessionalTech: DevOps function;Automated testing;Observability tools;Microservices;Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: Cloud only (single or multi-cloud)"
+          }
+        ],
+        "dynamics_snapshot": {
+          "belbin_counts": {
+            "Resource-Investigator": 1,
+            "Shaper": 1,
+            "Implementer": 1,
+            "Coordinator": 2
+          },
+          "communication_counts": {
+            "Async": 2,
+            "Mixed": 3
+          },
+          "conflict_counts": {
+            "Avoid": 3,
+            "Mediation": 2
+          },
+          "leadership_counts": {
+            "Shared": 3,
+            "Lead": 2
+          },
+          "deadline_counts": {
+            "Depends": 2,
+            "Strict": 2,
+            "Flexible": 1
+          },
+          "knowledge_sharing_counts": {
+            "Medium": 2
+          },
+          "learning_orientation_counts": {
+            "High": 4,
+            "Medium": 1
+          }
+        },
+        "technical_summary": {
+          "top_skills": [
+            ".net (5+)",
+            ".net framework (1.0 - 4.8)",
+            ".net maui",
+            "amazon web services (aws)",
+            "apache kafka",
+            "apache spark",
+            "asp.net",
+            "asp.net core",
+            "assembly",
+            "bash/shell (all shells)",
+            "blazor",
+            "c",
+            "c#",
+            "c++",
+            "cloudflare",
+            "cockroachdb",
+            "cosmos db",
+            "digital ocean",
+            "django",
+            "dynamodb",
+            "elasticsearch",
+            "fastapi",
+            "flask",
+            "gatsby",
+            "go",
+            "google cloud",
+            "html/css",
+            "hugging face transformers",
+            "java",
+            "javascript"
+          ],
+          "top_tools": [
+            "bun",
+            "chocolatey",
+            "dagger",
+            "docker",
+            "emacs",
+            "google test",
+            "homebrew",
+            "intellij idea",
+            "ipython",
+            "jupyter notebook/jupyterlab",
+            "kubernetes",
+            "make",
+            "msbuild",
+            "neovim",
+            "npm",
+            "nuget",
+            "pip",
+            "pnpm",
+            "rider",
+            "terraform",
+            "vim",
+            "visual studio",
+            "visual studio code",
+            "visual studio solution",
+            "vite",
+            "webpack",
+            "xcode",
+            "yarn"
+          ],
+          "dev_type_counts": {
+            "Developer, back-end": 2,
+            "Developer, full-stack": 1
+          },
+          "industry_counts": {
+            "Software Development": 2,
+            "Transportation, or Supply Chain": 1
+          },
+          "work_experience_years": {
+            "min": 1,
+            "max": 25,
+            "avg": 13.2
+          },
+          "years_code": {
+            "min": 2,
+            "max": 30,
+            "avg": 17.8
+          },
+          "required_matching": {
+            "required_roles": [
+              "Developer, front-end",
+              "Developer, back-end",
+              "Data scientist or machine learning specialist"
+            ],
+            "required_skills": [
+              "React",
+              "Python",
+              "SQL",
+              "Machine Learning"
+            ],
+            "required_tools": [
+              "Figma"
+            ],
+            "skills": {
+              "can_evaluate": true,
+              "matched": [
+                "React",
+                "Python",
+                "SQL"
+              ],
+              "missing": [
+                "Machine Learning"
+              ],
+              "note": "Only evaluated if project requirements provided required skills."
+            },
+            "tools": {
+              "can_evaluate": true,
+              "matched": [],
+              "missing": [
+                "Figma"
+              ],
+              "note": "Only evaluated if project requirements provided required tools."
+            },
+            "roles": {
+              "coverage_possible": true,
+              "matched_roles": [
+                "Developer, back-end"
+              ],
+              "missing_roles": [
+                "Developer, front-end",
+                "Data scientist or machine learning specialist"
+              ],
+              "note": "Role coverage is verified using metadata.dev_type only (no Belbin)."
+            }
+          }
+        },
+        "team_summary": {
+          "team_number": 1,
+          "size": 5,
+          "coverage_percent": 60.0,
+          "covered_items": [
+            "python",
+            "react",
+            "sql"
+          ],
+          "missing_items": [
+            "figma",
+            "machine learning"
+          ],
+          "missing_roles": [
+            "Developer, front-end",
+            "Developer, back-end",
+            "Data scientist or machine learning specialist"
+          ],
+          "avg_fit": 0.5054,
+          "avg_internal_similarity": 0.8205,
+          "member_ids": [
+            "2",
+            "5",
+            "4",
+            "3",
+            "10"
+          ],
+          "technical_coverage_summary": {
+            "required_items_specified": true,
+            "required_roles_specified": true,
+            "items_covered": false,
+            "roles_covered": false,
+            "coverage_percent": 60.0,
+            "covered_items": [
+              "python",
+              "react",
+              "sql"
+            ],
+            "missing_items": [
+              "figma",
+              "machine learning"
+            ],
+            "missing_roles": [
+              "Developer, front-end",
+              "Developer, back-end",
+              "Data scientist or machine learning specialist"
+            ]
+          }
+        }
+      },
+      {
+        "team_number": 2,
+        "member_ids": [
+          "7",
+          "1",
+          "6",
+          "8",
+          "9"
+        ],
+        "algo_rows": [
+          {
+            "Candidate ID": "7",
+            "Role": "Developer, full-stack",
+            "Req match (skills and tools)": "Python, SQL",
+            "Req coverage %": 40.0,
+            "Belbin role": "Shaper",
+            "Comm style": "Mixed",
+            "Conflict style": "Direct",
+            "Leadership": "Shared",
+            "Deadline": "Flexible",
+            "Availability": 20,
+            "Fit": 0.528,
+            "Avg dissim to teammates": 0.1496,
+            "Skills (sample)": "C#, C++, Python, SQL, TypeScript, MariaDB, MongoDB, MySQL",
+            "Tools (sample)": "Ninja, Unity 3D, CLion, PyCharm, Qt Creator, Rider, Visual Studio Code, WebStorm"
+          },
+          {
+            "Candidate ID": "1",
+            "Role": "Developer, full-stack",
+            "Req match (skills and tools)": "React, Python",
+            "Req coverage %": 40.0,
+            "Belbin role": "Teamworker",
+            "Comm style": "Mixed",
+            "Conflict style": "Avoid",
+            "Leadership": "Lead",
+            "Deadline": "Strict",
+            "Availability": 10,
+            "Fit": 0.4882,
+            "Avg dissim to teammates": 0.1651,
+            "Skills (sample)": "Bash/Shell (all shells), C#, Dart, JavaScript, Python, Rust, TypeScript, Cloud Firestore",
+            "Tools (sample)": "Docker, Godot, Kubernetes, npm, Unity 3D, Vite, Webpack, Yarn"
+          },
+          {
+            "Candidate ID": "6",
+            "Role": "Developer, full-stack",
+            "Req match (skills and tools)": "SQL",
+            "Req coverage %": 20.0,
+            "Belbin role": "Shaper",
+            "Comm style": "Async",
+            "Conflict style": "Mediation",
+            "Leadership": "Follow",
+            "Deadline": "Strict",
+            "Availability": 20,
+            "Fit": 0.5216,
+            "Avg dissim to teammates": 0.172,
+            "Skills (sample)": "C#, HTML/CSS, JavaScript, PowerShell, SQL, Dynamodb, Microsoft SQL Server, Redis",
+            "Tools (sample)": "MSBuild, Visual Studio Solution, Notepad++, Visual Studio, Visual Studio Intellicode"
+          },
+          {
+            "Candidate ID": "8",
+            "Role": "Developer, back-end",
+            "Req match (skills and tools)": "Python, SQL",
+            "Req coverage %": 40.0,
+            "Belbin role": "Monitor-Evaluator",
+            "Comm style": "Sync",
+            "Conflict style": "Avoid",
+            "Leadership": "Follow",
+            "Deadline": "Flexible",
+            "Availability": 10,
+            "Fit": 0.4636,
+            "Avg dissim to teammates": 0.2444,
+            "Skills (sample)": "Bash/Shell (all shells), Go, Java, JavaScript, Lisp, Python, Rust, SQL",
+            "Tools (sample)": "Docker, Homebrew, Kubernetes, Nix, npm, Pip, Podman, Emacs"
+          },
+          {
+            "Candidate ID": "9",
+            "Role": "Developer, full-stack",
+            "Req match (skills and tools)": "SQL",
+            "Req coverage %": 20.0,
+            "Belbin role": "Implementer",
+            "Comm style": "Mixed",
+            "Conflict style": "Mediation",
+            "Leadership": "Lead",
+            "Deadline": "Depends",
+            "Availability": 40,
+            "Fit": 0.4941,
+            "Avg dissim to teammates": 0.1577,
+            "Skills (sample)": "C#, HTML/CSS, JavaScript, SQL, TypeScript, Couchbase, Microsoft SQL Server, Microsoft Azure",
+            "Tools (sample)": "Docker, Kubernetes, NuGet, Notepad++, Visual Studio, Visual Studio Code"
+          }
+        ],
+        "members": [
+          {
+            "candidate_id": "7",
+            "metadata": {
+              "dev_type": "Developer, full-stack",
+              "work_experience_years": "0.0",
+              "years_code": "5",
+              "employment": "Employed, full-time",
+              "org_size": "20 to 99 employees",
+              "industry": "Software Development"
+            },
+            "personality": {
+              "Belbin_team_role": "Shaper"
+            },
+            "collaboration": {
+              "communication_style": "Mixed",
+              "conflict_style": "Direct",
+              "leadership_preference": "Shared",
+              "deadline_discipline": "Flexible"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Medium"
+            },
+            "technical": {
+              "skills": [
+                "C#",
+                "C++",
+                "Python",
+                "SQL",
+                "TypeScript",
+                "MariaDB",
+                "MongoDB",
+                "MySQL",
+                "SQLite",
+                "Angular",
+                "ASP.NET CORE",
+                "Django",
+                "FastAPI",
+                "Flask",
+                "jQuery",
+                ".NET (5+)",
+                "OpenGL"
+              ],
+              "tools": [
+                "Ninja",
+                "Unity 3D",
+                "CLion",
+                "PyCharm",
+                "Qt Creator",
+                "Rider",
+                "Visual Studio Code",
+                "WebStorm"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "20–40"
+            },
+            "candidate_input_text": "Candidate ID: 7\nWeeklyAvailabilityHours: 20–40\nEmployment: Employed, full-time\nYearsCode: 5\nDevType: Developer, full-stack\nOrgSize: 20 to 99 employees\nIndustry: Software Development\nWorkExp: 0.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: C#;C++;Python;SQL;TypeScript\nLanguageAdmired: C#;C++;Python\nDatabaseHaveWorkedWith: MariaDB;MongoDB;MySQL;SQLite\nPlatformHaveWorkedWith: Google Cloud;Linode, now Akamai\nWebframeHaveWorkedWith: Angular;ASP.NET CORE;Django;FastAPI;Flask;jQuery\nMiscTechHaveWorkedWith: .NET (5+) ;OpenGL\nToolsTechHaveWorkedWith: Ninja;Unity 3D\nNEWCollabToolsHaveWorkedWith: CLion;PyCharm;Qt Creator;Rider;Visual Studio Code;WebStorm\nOpSysPersonalUse: Android;Ubuntu;Windows\nAISearchDevHaveWorkedWith: ChatGPT\nAIToolCurrentlyUsing: Learning about a codebase;Debugging and getting help;Committing and reviewing code;Search for answers;Generating content or synthetic data\nAIBen: Speed up learning\nAIComplex: Good, but not great at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Replacing jobs without options for new employment opportunities;Biased results that do not represent diverse viewpoints\nAIChallenges: AI tools lack context of codebase,  internal architecture, and/or company knowledge;We don’t have the right policies in place to reduce security risks\nFrustration: Amount of technical debt;Complexity of tech stack for deployment;Complexity of tech stack for build;Reliability of tools/systems used in work\nPersonalityText: Here’s how I usually work when I’m in a team. I’d describe my natural team role as a Shaper: I’m driven and like to push the team to make progress. I like a balance of async messages and live discussions, depending on the task. I’m okay adjusting timelines if the scope changes and everyone is informed. In conflict I’m quite straightforward, as long as the discussion stays respectful. I prefer shared leadership where responsibilities and decisions are distributed.\nProfessionalTech: DevOps function;Knowledge sharing community;Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: Cloud only (single or multi-cloud)"
+          },
+          {
+            "candidate_id": "1",
+            "metadata": {
+              "dev_type": "Developer, full-stack",
+              "work_experience_years": "4.0",
+              "years_code": "6",
+              "employment": "Independent contractor, freelancer, or self-employed",
+              "org_size": "100 to 499 employees",
+              "industry": "Healthcare"
+            },
+            "personality": {
+              "Belbin_team_role": "Teamworker"
+            },
+            "collaboration": {
+              "communication_style": "Mixed",
+              "conflict_style": "Avoid",
+              "leadership_preference": "Lead",
+              "deadline_discipline": "Strict"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "High"
+            },
+            "technical": {
+              "skills": [
+                "Bash/Shell (all shells)",
+                "C#",
+                "Dart",
+                "JavaScript",
+                "Python",
+                "Rust",
+                "TypeScript",
+                "Cloud Firestore",
+                "Dynamodb",
+                "PostgreSQL",
+                "Redis",
+                "SQLite",
+                "Amazon Web Services (AWS)",
+                "Google Cloud",
+                "Netlify",
+                "Express",
+                "NestJS",
+                "Next.js",
+                "Node.js",
+                "React",
+                "Flutter",
+                "React Native"
+              ],
+              "tools": [
+                "Docker",
+                "Godot",
+                "Kubernetes",
+                "npm",
+                "Unity 3D",
+                "Vite",
+                "Webpack",
+                "Yarn",
+                "Android Studio",
+                "Visual Studio",
+                "Visual Studio Code"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "10–20"
+            },
+            "candidate_input_text": "Candidate ID: 1\nWeeklyAvailabilityHours: 10–20\nEmployment: Independent contractor, freelancer, or self-employed\nYearsCode: 6\nDevType: Developer, full-stack\nOrgSize: 100 to 499 employees\nIndustry: Healthcare\nWorkExp: 4.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: Bash/Shell (all shells);C#;Dart;JavaScript;Python;Rust;TypeScript\nLanguageAdmired: Bash/Shell (all shells);Rust;TypeScript\nDatabaseHaveWorkedWith: Cloud Firestore;Dynamodb;PostgreSQL;Redis;SQLite\nPlatformHaveWorkedWith: Amazon Web Services (AWS);Google Cloud;Netlify\nWebframeHaveWorkedWith: Express;NestJS;Next.js;Node.js;React\nMiscTechHaveWorkedWith: Flutter;React Native\nToolsTechHaveWorkedWith: Docker;Godot;Kubernetes;npm;Unity 3D;Vite;Webpack;Yarn\nNEWCollabToolsHaveWorkedWith: Android Studio;Visual Studio;Visual Studio Code\nOpSysPersonalUse: Ubuntu;Windows Subsystem for Linux (WSL)\nAISearchDevHaveWorkedWith: ChatGPT\nAIToolCurrentlyUsing: Writing code\nAIBen: Increase productivity\nAIComplex: Very poor at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Biased results that do not represent diverse viewpoints;Imitating a person's likeness;Energy demand\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge;We don’t have the right policies in place to reduce security risks;They create more work (more code/PRs to review, etc.)\nFrustration: Complexity of tech stack for deployment\nPersonalityText: This is roughly how I behave when I’m collaborating with others. For me a mix of chat and meetings works best, and I adapt to what the team needs. I naturally tend to take the lead and organize things when the team needs direction. I don’t like heavy arguments and tend to step back rather than fight. Clear deadlines motivate me and I try hard to stick to them. I’d describe my natural team role as a Teamworker: I’m supportive and focused on keeping the group working well together.\nProfessionalTech: DevOps function;Automated testing;Microservices;Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: Cloud only (single or multi-cloud)"
+          },
+          {
+            "candidate_id": "6",
+            "metadata": {
+              "dev_type": "Developer, full-stack",
+              "work_experience_years": "26.0",
+              "years_code": "25",
+              "employment": "Employed, full-time",
+              "org_size": "20 to 99 employees",
+              "industry": "Software Development"
+            },
+            "personality": {
+              "Belbin_team_role": "Shaper"
+            },
+            "collaboration": {
+              "communication_style": "Async",
+              "conflict_style": "Mediation",
+              "leadership_preference": "Follow",
+              "deadline_discipline": "Strict"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Medium"
+            },
+            "technical": {
+              "skills": [
+                "C#",
+                "HTML/CSS",
+                "JavaScript",
+                "PowerShell",
+                "SQL",
+                "Dynamodb",
+                "Microsoft SQL Server",
+                "Redis",
+                "Amazon Web Services (AWS)",
+                "ASP.NET",
+                "jQuery",
+                ".NET Framework (1.0 - 4.8)"
+              ],
+              "tools": [
+                "MSBuild",
+                "Visual Studio Solution",
+                "Notepad++",
+                "Visual Studio",
+                "Visual Studio Intellicode"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "20–40"
+            },
+            "candidate_input_text": "Candidate ID: 6\nWeeklyAvailabilityHours: 20–40\nEmployment: Employed, full-time\nYearsCode: 25\nDevType: Developer, full-stack\nOrgSize: 20 to 99 employees\nIndustry: Software Development\nWorkExp: 26.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: C#;HTML/CSS;JavaScript;PowerShell;SQL\nLanguageAdmired: C#;HTML/CSS;JavaScript;PowerShell;SQL\nDatabaseHaveWorkedWith: Dynamodb;Microsoft SQL Server;Redis\nPlatformHaveWorkedWith: Amazon Web Services (AWS)\nWebframeHaveWorkedWith: ASP.NET;jQuery\nMiscTechHaveWorkedWith: .NET Framework (1.0 - 4.8);Capacitor\nToolsTechHaveWorkedWith: MSBuild;Visual Studio Solution\nNEWCollabToolsHaveWorkedWith: Notepad++;Visual Studio\nOpSysPersonalUse: Windows\nAISearchDevHaveWorkedWith: Visual Studio Intellicode\nAIToolCurrentlyUsing: Writing code\nAIBen: Increase productivity;Improve accuracy in coding\nAIComplex: Bad at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Biased results that do not represent diverse viewpoints\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge\nFrustration: Amount of technical debt\nPersonalityText: In group projects, this is pretty much my style: Most of the time I like working through written messages and updates instead of constant meetings. I’m usually more comfortable supporting whoever is leading and doing my part reliably. I tend to step between viewpoints and look for a solution everyone can live with. I treat deadlines very seriously and plan my work so I don’t deliver late. I try to give constructive feedback and I appreciate it in return. I’d describe my natural team role as a Shaper: I’m driven and like to push the team to make progress.\nProfessionalTech: DevOps function;Automated testing;Knowledge sharing community;AI-assisted technology tool(s);Continuous integration (CI) and (more often) continuous delivery\nProfessionalCloud: Cloud only (single or multi-cloud)"
+          },
+          {
+            "candidate_id": "8",
+            "metadata": {
+              "dev_type": "Developer, back-end",
+              "work_experience_years": "13.0",
+              "years_code": "21",
+              "employment": "Employed, full-time",
+              "org_size": "10,000 or more employees",
+              "industry": "Software Development"
+            },
+            "personality": {
+              "Belbin_team_role": "Monitor-Evaluator"
+            },
+            "collaboration": {
+              "communication_style": "Sync",
+              "conflict_style": "Avoid",
+              "leadership_preference": "Follow",
+              "deadline_discipline": "Flexible"
+            },
+            "learning_behavior": {
+              "learning_orientation": "High",
+              "knowledge_sharing": "Medium"
+            },
+            "technical": {
+              "skills": [
+                "Bash/Shell (all shells)",
+                "Go",
+                "Java",
+                "JavaScript",
+                "Lisp",
+                "Python",
+                "Rust",
+                "SQL",
+                "TypeScript",
+                "Couchbase",
+                "MariaDB",
+                "MySQL",
+                "Presto",
+                "SQLite",
+                "Microsoft Azure",
+                "Flask",
+                "Apache Kafka",
+                "Apache Spark",
+                "NumPy",
+                "Pandas",
+                "Scikit-Learn"
+              ],
+              "tools": [
+                "Docker",
+                "Homebrew",
+                "Kubernetes",
+                "Nix",
+                "npm",
+                "Pip",
+                "Podman",
+                "Emacs",
+                "IntelliJ IDEA",
+                "IPython",
+                "Jupyter Notebook/JupyterLab",
+                "Neovim",
+                "PyCharm",
+                "Spacemacs",
+                "Vim"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "10–20"
+            },
+            "candidate_input_text": "Candidate ID: 8\nWeeklyAvailabilityHours: 10–20\nEmployment: Employed, full-time\nYearsCode: 21\nDevType: Developer, back-end\nOrgSize: 10,000 or more employees\nIndustry: Software Development\nWorkExp: 13.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: Bash/Shell (all shells);Go;Java;JavaScript;Lisp;Python;Rust;SQL;TypeScript\nLanguageAdmired: Lisp;Python;Rust;SQL\nDatabaseHaveWorkedWith: Couchbase;MariaDB;MySQL;Presto;SQLite\nPlatformHaveWorkedWith: Microsoft Azure\nWebframeHaveWorkedWith: Flask\nMiscTechHaveWorkedWith: Apache Kafka;Apache Spark;NumPy;Pandas;Scikit-Learn\nToolsTechHaveWorkedWith: Docker;Homebrew;Kubernetes;Nix;npm;Pip;Podman\nNEWCollabToolsHaveWorkedWith: Emacs;IntelliJ IDEA;IPython;Jupyter Notebook/JupyterLab;Neovim;PyCharm;Spacemacs;Vim\nOpSysPersonalUse: Arch;Debian;Other Linux-based;Ubuntu;Other (please specify):\nAISearchDevHaveWorkedWith: ChatGPT;GitHub Copilot\nAIToolCurrentlyUsing: Writing code;Documenting code\nAIBen: Increase productivity;Speed up learning;Improve accuracy in coding\nAIComplex: Very poor at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Missing or incorrect attribution for sources of data;Replacing jobs without options for new employment opportunities;Biased results that do not represent diverse viewpoints;Imitating a person's likeness;Energy demand\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge;We don’t have the right policies in place to reduce security risks;Other (please specify):;They create more work (more code/PRs to review, etc.)\nFrustration: Amount of technical debt;Number of software tools in use;Tracking my work;Showing my contributions;Complexity of tech stack for deployment;Complexity of tech stack for build;Reliability of tools/systems used in work\nPersonalityText: If I had to describe myself as a teammate, I’d say this: I’d describe my natural team role as a Monitor-Evaluator: I’m analytical and tend to look at pros and cons. I enjoy synchronous communication and like to jump on a call to sort things out fast. For me it’s important that everyone feels heard and included. I see deadlines more as guides and like to keep them realistic and negotiable. I don’t like heavy arguments and tend to step back rather than fight. I don’t need to be the one in charge; I prefer being a dependable contributor.\nProfessionalTech: DevOps function;Automated testing;Observability tools;Knowledge sharing community;AI-assisted technology tool(s);Microservices;Developer portal or other central places to find tools/services;Continuous integration (CI) and (more often) continuous delivery;Innersource initiative\nProfessionalCloud: On-prem"
+          },
+          {
+            "candidate_id": "9",
+            "metadata": {
+              "dev_type": "Developer, full-stack",
+              "work_experience_years": "11.0",
+              "years_code": "13",
+              "employment": "Employed, full-time;Independent contractor, freelancer, or self-employed",
+              "org_size": "20 to 99 employees",
+              "industry": "Internet, Telecomm or Information Services"
+            },
+            "personality": {
+              "Belbin_team_role": "Implementer"
+            },
+            "collaboration": {
+              "communication_style": "Mixed",
+              "conflict_style": "Mediation",
+              "leadership_preference": "Lead",
+              "deadline_discipline": "Depends"
+            },
+            "learning_behavior": {
+              "learning_orientation": "Medium",
+              "knowledge_sharing": "Unknown"
+            },
+            "technical": {
+              "skills": [
+                "C#",
+                "HTML/CSS",
+                "JavaScript",
+                "SQL",
+                "TypeScript",
+                "Couchbase",
+                "Microsoft SQL Server",
+                "Microsoft Azure",
+                "ASP.NET",
+                "Vue.js",
+                ".NET (5+)",
+                ".NET Framework (1.0 - 4.8)"
+              ],
+              "tools": [
+                "Docker",
+                "Kubernetes",
+                "NuGet",
+                "Notepad++",
+                "Visual Studio",
+                "Visual Studio Code"
+              ]
+            },
+            "constraints": {
+              "weekly_availability_hours": "40+"
+            },
+            "candidate_input_text": "Candidate ID: 9\nWeeklyAvailabilityHours: 40+\nEmployment: Employed, full-time;Independent contractor, freelancer, or self-employed\nYearsCode: 13\nDevType: Developer, full-stack\nOrgSize: 20 to 99 employees\nIndustry: Internet, Telecomm or Information Services\nWorkExp: 11.0\nICorPM: Individual contributor\nLanguageHaveWorkedWith: C#;HTML/CSS;JavaScript;SQL;TypeScript\nLanguageAdmired: C#;HTML/CSS;JavaScript;SQL;TypeScript\nDatabaseHaveWorkedWith: Couchbase;Microsoft SQL Server\nPlatformHaveWorkedWith: Microsoft Azure\nWebframeHaveWorkedWith: ASP.NET;Vue.js\nMiscTechHaveWorkedWith: .NET (5+) ;.NET Framework (1.0 - 4.8)\nToolsTechHaveWorkedWith: Docker;Kubernetes;NuGet\nNEWCollabToolsHaveWorkedWith: Notepad++;Visual Studio;Visual Studio Code\nOpSysPersonalUse: Windows\nAISearchDevHaveWorkedWith: GitHub Copilot\nAIToolCurrentlyUsing: Writing code;Documenting code;Testing code;Committing and reviewing code;Search for answers;Generating content or synthetic data\nAIBen: Increase productivity;Improve accuracy in coding\nAIComplex: Neither good or bad at handling complex tasks\nAIEthics: Circulating misinformation or disinformation;Biased results that do not represent diverse viewpoints\nAIChallenges: Don’t trust the output or answers;AI tools lack context of codebase,  internal architecture, and/or company knowledge;Lack of proper training and education on new tools;Lack of executive buy-in;Not everyone uses them;We don’t have the right policies in place to reduce security risks\nFrustration: Complexity of tech stack for build;Patching/updating core components\nPersonalityText: In group projects, this is pretty much my style: For me a mix of chat and meetings works best, and I adapt to what the team needs. I’m happy to step up, make decisions and keep everyone aligned when necessary. I’d describe my natural team role as a Implementer: I’m practical and like turning ideas into concrete steps. In conflicts I often act as a mediator and try to understand all sides. How strict I am with deadlines depends on the impact and the current workload.\nProfessionalTech: DevOps function;Knowledge sharing community;Developer portal or other central places to find tools/services\nProfessionalCloud: Hybrid (on-prem and cloud)"
+          }
+        ],
+        "dynamics_snapshot": {
+          "belbin_counts": {
+            "Shaper": 2,
+            "Teamworker": 1,
+            "Monitor-Evaluator": 1,
+            "Implementer": 1
+          },
+          "communication_counts": {
+            "Mixed": 3,
+            "Async": 1,
+            "Sync": 1
+          },
+          "conflict_counts": {
+            "Direct": 1,
+            "Avoid": 2,
+            "Mediation": 2
+          },
+          "leadership_counts": {
+            "Shared": 1,
+            "Lead": 2,
+            "Follow": 2
+          },
+          "deadline_counts": {
+            "Flexible": 2,
+            "Strict": 2,
+            "Depends": 1
+          },
+          "knowledge_sharing_counts": {
+            "Medium": 3,
+            "High": 1
+          },
+          "learning_orientation_counts": {
+            "High": 4,
+            "Medium": 1
+          }
+        },
+        "technical_summary": {
+          "top_skills": [
+            ".net (5+)",
+            ".net framework (1.0 - 4.8)",
+            "amazon web services (aws)",
+            "angular",
+            "apache kafka",
+            "apache spark",
+            "asp.net",
+            "asp.net core",
+            "bash/shell (all shells)",
+            "c#",
+            "c++",
+            "cloud firestore",
+            "couchbase",
+            "dart",
+            "django",
+            "dynamodb",
+            "express",
+            "fastapi",
+            "flask",
+            "flutter",
+            "go",
+            "google cloud",
+            "html/css",
+            "java",
+            "javascript",
+            "jquery",
+            "lisp",
+            "mariadb",
+            "microsoft azure",
+            "microsoft sql server"
+          ],
+          "top_tools": [
+            "android studio",
+            "clion",
+            "docker",
+            "emacs",
+            "godot",
+            "homebrew",
+            "intellij idea",
+            "ipython",
+            "jupyter notebook/jupyterlab",
+            "kubernetes",
+            "msbuild",
+            "neovim",
+            "ninja",
+            "nix",
+            "notepad++",
+            "npm",
+            "nuget",
+            "pip",
+            "podman",
+            "pycharm",
+            "qt creator",
+            "rider",
+            "spacemacs",
+            "unity 3d",
+            "vim",
+            "visual studio",
+            "visual studio code",
+            "visual studio intellicode",
+            "visual studio solution",
+            "vite"
+          ],
+          "dev_type_counts": {
+            "Developer, full-stack": 4,
+            "Developer, back-end": 1
+          },
+          "industry_counts": {
+            "Software Development": 3,
+            "Healthcare": 1,
+            "Internet, Telecomm or Information Services": 1
+          },
+          "work_experience_years": {
+            "min": 0,
+            "max": 26,
+            "avg": 10.8
+          },
+          "years_code": {
+            "min": 5,
+            "max": 25,
+            "avg": 14.0
+          },
+          "required_matching": {
+            "required_roles": [
+              "Developer, front-end",
+              "Developer, back-end",
+              "Data scientist or machine learning specialist"
+            ],
+            "required_skills": [
+              "React",
+              "Python",
+              "SQL",
+              "Machine Learning"
+            ],
+            "required_tools": [
+              "Figma"
+            ],
+            "skills": {
+              "can_evaluate": true,
+              "matched": [
+                "React",
+                "Python",
+                "SQL"
+              ],
+              "missing": [
+                "Machine Learning"
+              ],
+              "note": "Only evaluated if project requirements provided required skills."
+            },
+            "tools": {
+              "can_evaluate": true,
+              "matched": [],
+              "missing": [
+                "Figma"
+              ],
+              "note": "Only evaluated if project requirements provided required tools."
+            },
+            "roles": {
+              "coverage_possible": true,
+              "matched_roles": [
+                "Developer, back-end"
+              ],
+              "missing_roles": [
+                "Developer, front-end",
+                "Data scientist or machine learning specialist"
+              ],
+              "note": "Role coverage is verified using metadata.dev_type only (no Belbin)."
+            }
+          }
+        },
+        "team_summary": {
+          "team_number": 2,
+          "size": 5,
+          "coverage_percent": 60.0,
+          "covered_items": [
+            "python",
+            "react",
+            "sql"
+          ],
+          "missing_items": [
+            "figma",
+            "machine learning"
+          ],
+          "missing_roles": [
+            "Developer, front-end",
+            "Developer, back-end",
+            "Data scientist or machine learning specialist"
+          ],
+          "avg_fit": 0.4991,
+          "avg_internal_similarity": 0.8222,
+          "member_ids": [
+            "7",
+            "1",
+            "6",
+            "8",
+            "9"
+          ],
+          "technical_coverage_summary": {
+            "required_items_specified": true,
+            "required_roles_specified": true,
+            "items_covered": false,
+            "roles_covered": false,
+            "coverage_percent": 60.0,
+            "covered_items": [
+              "python",
+              "react",
+              "sql"
+            ],
+            "missing_items": [
+              "figma",
+              "machine learning"
+            ],
+            "missing_roles": [
+              "Developer, front-end",
+              "Developer, back-end",
+              "Data scientist or machine learning specialist"
+            ]
+          }
+        }
+      }
+    ],
+    "note": "Belbin roles describe collaboration style; technical roles come from metadata.dev_type and project requirements roles."
+  },
+  "result": {
+    "report_markdown": "# Project requirements (technical)\n- Required roles: Developer, front-end, Developer, back-end, Data scientist or machine learning specialist\n- Required skills: React, Python, SQL, Machine Learning\n- Required tools: Figma\n\n# Team Analysis\n\n## Team 1\n\n### Technical fit (roles/skills/tools)\n1) Required coverage:\n- Matched roles: Developer, back-end\n- Missing roles: Developer, front-end, Data scientist or machine learning specialist\n- Matched skills: React, Python, SQL\n- Missing skills: Machine Learning\n- Matched tools: None\n- Missing tools: Figma\n\n2) Team technical footprint:\n   - Top skills include Python, React, and SQL.\n   - Tools used include Docker, Kubernetes, and Visual Studio Code.\n   - The team has a spread of Developer, back-end roles.\n   - Industry signals include Software Development.\n   - Experience ranges from 1 to 25 years, with an average of 13.2 years.\n\n### Team dynamics\n1) This team is characterized by a mix of leadership styles and communication preferences, with a tendency towards shared leadership and a focus on avoiding conflict. The team members are generally supportive and collaborative.\n2) Dynamics snapshot: 1 Resource-Investigator, 1 Shaper, 1 Implementer, 2 Coordinators; 2 Async, 3 Mixed communication styles; 3 Avoid, 2 Mediation conflict styles; 3 Shared, 2 Lead leadership preferences.\n\n3) Strengths:\n- Strong collaborative spirit with shared leadership.\n- High learning orientation among members.\n- Diverse skill set with experience in multiple technologies.\n\n4) Risks / watch-outs:\n- Missing key roles and skills required for the project.\n- Potential for conflict due to differing communication styles.\n- Varying levels of experience may lead to discrepancies in work pace.\n\n## Team 2\n\n### Technical fit (roles/skills/tools)\n1) Required coverage:\n- Matched roles: Developer, back-end\n- Missing roles: Developer, front-end, Data scientist or machine learning specialist\n- Matched skills: React, Python, SQL\n- Missing skills: Machine Learning\n- Matched tools: None\n- Missing tools: Figma\n\n2) Team technical footprint:\n   - Top skills include Python, React, and SQL.\n   - Tools used include Docker, Kubernetes, and Visual Studio Code.\n   - The team has a spread of Developer, full-stack and Developer, back-end roles.\n   - Industry signals include Software Development and Healthcare.\n   - Experience ranges from 0 to 26 years, with an average of 10.8 years.\n\n### Team dynamics\n1) This team exhibits a dynamic mix of leadership styles, with a strong emphasis on collaboration and shared decision-making. Members are generally proactive and focused on achieving results.\n2) Dynamics snapshot: 2 Shapers, 1 Teamworker, 1 Monitor-Evaluator, 1 Implementer; 3 Mixed, 1 Async, 1 Sync communication styles; 1 Direct, 2 Avoid, 2 Mediation conflict styles; 1 Shared, 2 Lead, 2 Follow leadership preferences.\n\n3) Strengths:\n- High learning orientation and knowledge sharing among members.\n- Strong collaborative environment with shared leadership.\n- Diverse technical skills across various platforms and languages.\n\n4) Risks / watch-outs:\n- Missing key roles and skills required for the project.\n- Potential for conflict due to differing communication styles.\n- Varying levels of experience may lead to discrepancies in work pace.\n\n#### Belbin Roles Glossary\n- Teamworker: Supportive, harmony-focused, helps people collaborate\n- Shaper: Drives progress, pushes for decisions, keeps urgency high\n- Coordinator: Aligns goals, delegates, organizes the group\n- Implementer: Turns ideas into practical steps and steady execution\n- Monitor-Evaluator: Analytical, weighs pros/cons, cautious decisions\n- Plant: Creative idea generator, novel approaches\n- Resource-Investigator: Explores options, brings external ideas/opportunities\n- Completer-Finisher: Detail-oriented, quality control, closes tasks strongly\n\nNote: Belbin roles describe teamwork style — they are not job titles / technical project roles.\n\n## Recommended Team: #1\n- Strong collaborative spirit with shared leadership.\n- High learning orientation among members.\n- Diverse skill set with experience in multiple technologies.\n- Members are generally supportive and focused on collaboration.",
+    "recommended_team_number": 0
+  }
+}

@@ -1,0 +1,755 @@
+[
+  {
+    "id": "1",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Developer, full-stack",
+      "work_experience_years": "4.0",
+      "years_code": "6",
+      "employment": "Independent contractor, freelancer, or self-employed",
+      "org_size": "100 to 499 employees",
+      "industry": "Healthcare"
+    },
+    "technical": {
+      "skills": [
+        "Bash/Shell (all shells)",
+        "C#",
+        "Dart",
+        "JavaScript",
+        "Python",
+        "Rust",
+        "TypeScript",
+        "Cloud Firestore",
+        "Dynamodb",
+        "PostgreSQL",
+        "Redis",
+        "SQLite",
+        "Amazon Web Services (AWS)",
+        "Google Cloud",
+        "Netlify",
+        "Express",
+        "NestJS",
+        "Next.js",
+        "Node.js",
+        "React",
+        "Flutter",
+        "React Native"
+      ],
+      "tools": [
+        "Docker",
+        "Godot",
+        "Kubernetes",
+        "npm",
+        "Unity 3D",
+        "Vite",
+        "Webpack",
+        "Yarn",
+        "Android Studio",
+        "Visual Studio",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Teamworker"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Lead",
+      "deadline_discipline": "Strict"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "High"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Teamworker"
+      },
+      "collaboration": {
+        "communication_style": "a mix of chat and meetings works best",
+        "conflict_style": "I don’t like heavy arguments and tend to step back",
+        "leadership_preference": "I naturally tend to take the lead and organize",
+        "deadline_discipline": "Clear deadlines motivate me and I try hard to stick to them"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Writing code",
+        "knowledge_sharing": "supportive and focused on keeping the group working well together"
+      }
+    }
+  },
+  {
+    "id": "2",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Unknown",
+      "work_experience_years": "20.0",
+      "years_code": "20",
+      "employment": "Employed, full-time",
+      "org_size": "10,000 or more employees",
+      "industry": "Unknown"
+    },
+    "technical": {
+      "skills": [
+        "Bash/Shell (all shells)",
+        "C#",
+        "HTML/CSS",
+        "PowerShell",
+        "Python",
+        "Rust",
+        "SQL",
+        "TypeScript",
+        "Dynamodb",
+        "PostgreSQL",
+        "SQLite",
+        "Amazon Web Services (AWS)",
+        "Netlify",
+        "ASP.NET CORE",
+        "Flask",
+        "Next.js",
+        "Node.js",
+        "React",
+        "Apache Spark",
+        "Hugging Face Transformers",
+        "Roslyn"
+      ],
+      "tools": [
+        "Chocolatey",
+        "Kubernetes",
+        "Make",
+        "npm",
+        "NuGet",
+        "Pip",
+        "pnpm",
+        "Terraform",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Resource-Investigator"
+    },
+    "collaboration": {
+      "communication_style": "Async",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Shared",
+      "deadline_discipline": "Depends"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Medium"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Resource-Investigator"
+      },
+      "collaboration": {
+        "communication_style": "I like working through written messages and updates",
+        "conflict_style": "I try to stay calm and avoid unnecessary confrontation",
+        "leadership_preference": "the team shares ownership and we make decisions together",
+        "deadline_discipline": "depends on the impact and the current workload"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Writing code;Search for answers;Generating content or synthetic data",
+        "knowledge_sharing": "give constructive feedback and I appreciate it in return"
+      }
+    }
+  },
+  {
+    "id": "3",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Developer, back-end",
+      "work_experience_years": "8.0",
+      "years_code": "18",
+      "employment": "Employed, full-time",
+      "org_size": "2 to 9 employees",
+      "industry": "Software Development"
+    },
+    "technical": {
+      "skills": [
+        "C#",
+        "HTML/CSS",
+        "JavaScript",
+        "PowerShell",
+        "TypeScript",
+        "Cosmos DB",
+        "Microsoft SQL Server",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Microsoft Azure",
+        "ASP.NET",
+        "ASP.NET CORE",
+        "Blazor",
+        "jQuery",
+        ".NET (5+)",
+        ".NET Framework (1.0 - 4.8)",
+        ".NET MAUI",
+        "Xamarin"
+      ],
+      "tools": [
+        "MSBuild",
+        "NuGet",
+        "Visual Studio Solution",
+        "Visual Studio",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Coordinator"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Mediation",
+      "leadership_preference": "Lead",
+      "deadline_discipline": "Strict"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Unknown"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Coordinator"
+      },
+      "collaboration": {
+        "communication_style": "I’m comfortable switching between async and sync communication",
+        "conflict_style": "I often act as a mediator",
+        "leadership_preference": "I naturally tend to take the lead",
+        "deadline_discipline": "Clear deadlines motivate me"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Writing code;Debugging and getting help;Search for answers",
+        "knowledge_sharing": ""
+      }
+    }
+  },
+  {
+    "id": "4",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Unknown",
+      "work_experience_years": "12.0",
+      "years_code": "19",
+      "employment": "Employed, full-time",
+      "org_size": "10 to 19 employees",
+      "industry": "Unknown"
+    },
+    "technical": {
+      "skills": [
+        "Assembly",
+        "Bash/Shell (all shells)",
+        "C",
+        "C++",
+        "Go",
+        "HTML/CSS",
+        "Java",
+        "JavaScript",
+        "Julia",
+        "Lua",
+        "Python",
+        "MongoDB",
+        "PostgreSQL",
+        "SQLite",
+        "Cloudflare",
+        "Google Cloud",
+        "Managed Hosting",
+        "Django",
+        "Flask",
+        "jQuery",
+        "Node.js",
+        "Vue.js",
+        "NumPy",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "tools": [
+        "Docker",
+        "Google Test",
+        "Make",
+        "npm",
+        "Emacs",
+        "IPython",
+        "Jupyter Notebook/JupyterLab",
+        "Neovim",
+        "Vim",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Implementer"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Mediation",
+      "leadership_preference": "Shared",
+      "deadline_discipline": "Depends"
+    },
+    "learning_behavior": {
+      "learning_orientation": "Medium",
+      "knowledge_sharing": "Unknown"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "my natural team role as a Implementer"
+      },
+      "collaboration": {
+        "communication_style": "balance of async messages and live discussions",
+        "conflict_style": "act as a mediator",
+        "leadership_preference": "collaborating on direction instead of having a single strong leader",
+        "deadline_discipline": "depends on the impact and the current workload"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Increase productivity",
+        "knowledge_sharing": ""
+      }
+    }
+  },
+  {
+    "id": "5",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Developer, back-end",
+      "work_experience_years": "1.0",
+      "years_code": "2",
+      "employment": "Employed, full-time",
+      "org_size": "10 to 19 employees",
+      "industry": "Software Development"
+    },
+    "technical": {
+      "skills": [
+        "C#",
+        "JavaScript",
+        "MATLAB",
+        "Microsoft SQL Server",
+        "MongoDB",
+        "PostgreSQL",
+        "Amazon Web Services (AWS)",
+        "Google Cloud",
+        "ASP.NET",
+        "ASP.NET CORE",
+        "FastAPI",
+        ".NET (5+)",
+        "RabbitMQ"
+      ],
+      "tools": [
+        "Docker",
+        "NuGet",
+        "Rider",
+        "Visual Studio",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Shaper"
+    },
+    "collaboration": {
+      "communication_style": "Async",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Shared",
+      "deadline_discipline": "Strict"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Unknown"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Shaper"
+      },
+      "collaboration": {
+        "communication_style": "I like working through written messages",
+        "conflict_style": "I try to stay calm and avoid unnecessary confrontation",
+        "leadership_preference": "I enjoy collaborating on direction instead of having a single strong leader",
+        "deadline_discipline": "Clear deadlines motivate me and I try hard to stick to them"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Increase productivity;Greater efficiency;Speed up learning;Improve accuracy in coding",
+        "knowledge_sharing": ""
+      }
+    }
+  },
+  {
+    "id": "6",
+    "constraints": {
+      "weekly_availability_hours": "20–40"
+    },
+    "metadata": {
+      "dev_type": "Developer, full-stack",
+      "work_experience_years": "26.0",
+      "years_code": "25",
+      "employment": "Employed, full-time",
+      "org_size": "20 to 99 employees",
+      "industry": "Software Development"
+    },
+    "technical": {
+      "skills": [
+        "C#",
+        "HTML/CSS",
+        "JavaScript",
+        "PowerShell",
+        "SQL",
+        "Dynamodb",
+        "Microsoft SQL Server",
+        "Redis",
+        "Amazon Web Services (AWS)",
+        "ASP.NET",
+        "jQuery",
+        ".NET Framework (1.0 - 4.8)"
+      ],
+      "tools": [
+        "MSBuild",
+        "Visual Studio Solution",
+        "Notepad++",
+        "Visual Studio",
+        "Visual Studio Intellicode"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Shaper"
+    },
+    "collaboration": {
+      "communication_style": "Async",
+      "conflict_style": "Mediation",
+      "leadership_preference": "Follow",
+      "deadline_discipline": "Strict"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Medium"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Shaper"
+      },
+      "collaboration": {
+        "communication_style": "working through written messages",
+        "conflict_style": "look for a solution everyone can live with",
+        "leadership_preference": "supporting whoever is leading",
+        "deadline_discipline": "treat deadlines very seriously"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Writing code",
+        "knowledge_sharing": "give constructive feedback"
+      }
+    }
+  },
+  {
+    "id": "7",
+    "constraints": {
+      "weekly_availability_hours": "20–40"
+    },
+    "metadata": {
+      "dev_type": "Developer, full-stack",
+      "work_experience_years": "0.0",
+      "years_code": "5",
+      "employment": "Employed, full-time",
+      "org_size": "20 to 99 employees",
+      "industry": "Software Development"
+    },
+    "technical": {
+      "skills": [
+        "C#",
+        "C++",
+        "Python",
+        "SQL",
+        "TypeScript",
+        "MariaDB",
+        "MongoDB",
+        "MySQL",
+        "SQLite",
+        "Angular",
+        "ASP.NET CORE",
+        "Django",
+        "FastAPI",
+        "Flask",
+        "jQuery",
+        ".NET (5+)",
+        "OpenGL"
+      ],
+      "tools": [
+        "Ninja",
+        "Unity 3D",
+        "CLion",
+        "PyCharm",
+        "Qt Creator",
+        "Rider",
+        "Visual Studio Code",
+        "WebStorm"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Shaper"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Direct",
+      "leadership_preference": "Shared",
+      "deadline_discipline": "Flexible"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Medium"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Shaper"
+      },
+      "collaboration": {
+        "communication_style": "balance of async messages and live discussions",
+        "conflict_style": "I’m quite straightforward",
+        "leadership_preference": "prefer shared leadership",
+        "deadline_discipline": "okay adjusting timelines if the scope changes"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Speed up learning",
+        "knowledge_sharing": "Knowledge sharing community"
+      }
+    }
+  },
+  {
+    "id": "8",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Developer, back-end",
+      "work_experience_years": "13.0",
+      "years_code": "21",
+      "employment": "Employed, full-time",
+      "org_size": "10,000 or more employees",
+      "industry": "Software Development"
+    },
+    "technical": {
+      "skills": [
+        "Bash/Shell (all shells)",
+        "Go",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Python",
+        "Rust",
+        "SQL",
+        "TypeScript",
+        "Couchbase",
+        "MariaDB",
+        "MySQL",
+        "Presto",
+        "SQLite",
+        "Microsoft Azure",
+        "Flask",
+        "Apache Kafka",
+        "Apache Spark",
+        "NumPy",
+        "Pandas",
+        "Scikit-Learn"
+      ],
+      "tools": [
+        "Docker",
+        "Homebrew",
+        "Kubernetes",
+        "Nix",
+        "npm",
+        "Pip",
+        "Podman",
+        "Emacs",
+        "IntelliJ IDEA",
+        "IPython",
+        "Jupyter Notebook/JupyterLab",
+        "Neovim",
+        "PyCharm",
+        "Spacemacs",
+        "Vim"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Monitor-Evaluator"
+    },
+    "collaboration": {
+      "communication_style": "Sync",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Follow",
+      "deadline_discipline": "Flexible"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Medium"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Monitor-Evaluator"
+      },
+      "collaboration": {
+        "communication_style": "I enjoy synchronous communication",
+        "conflict_style": "I don’t like heavy arguments and tend to step back",
+        "leadership_preference": "I don’t need to be the one in charge",
+        "deadline_discipline": "I see deadlines more as guides"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Writing code",
+        "knowledge_sharing": "I prefer being a dependable contributor"
+      }
+    }
+  },
+  {
+    "id": "9",
+    "constraints": {
+      "weekly_availability_hours": "40+"
+    },
+    "metadata": {
+      "dev_type": "Developer, full-stack",
+      "work_experience_years": "11.0",
+      "years_code": "13",
+      "employment": "Employed, full-time;Independent contractor, freelancer, or self-employed",
+      "org_size": "20 to 99 employees",
+      "industry": "Internet, Telecomm or Information Services"
+    },
+    "technical": {
+      "skills": [
+        "C#",
+        "HTML/CSS",
+        "JavaScript",
+        "SQL",
+        "TypeScript",
+        "Couchbase",
+        "Microsoft SQL Server",
+        "Microsoft Azure",
+        "ASP.NET",
+        "Vue.js",
+        ".NET (5+)",
+        ".NET Framework (1.0 - 4.8)"
+      ],
+      "tools": [
+        "Docker",
+        "Kubernetes",
+        "NuGet",
+        "Notepad++",
+        "Visual Studio",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Implementer"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Mediation",
+      "leadership_preference": "Lead",
+      "deadline_discipline": "Depends"
+    },
+    "learning_behavior": {
+      "learning_orientation": "Medium",
+      "knowledge_sharing": "Unknown"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Implementer"
+      },
+      "collaboration": {
+        "communication_style": "a mix of chat and meetings works best",
+        "conflict_style": "I often act as a mediator",
+        "leadership_preference": "I’m happy to step up, make decisions",
+        "deadline_discipline": "How strict I am with deadlines depends"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Improve accuracy in coding",
+        "knowledge_sharing": ""
+      }
+    }
+  },
+  {
+    "id": "10",
+    "constraints": {
+      "weekly_availability_hours": "5–10"
+    },
+    "metadata": {
+      "dev_type": "Developer, full-stack",
+      "work_experience_years": "25.0",
+      "years_code": "30",
+      "employment": "Employed, full-time",
+      "org_size": "1,000 to 4,999 employees",
+      "industry": "Transportation, or Supply Chain"
+    },
+    "technical": {
+      "skills": [
+        "Bash/Shell (all shells)",
+        "HTML/CSS",
+        "Java",
+        "JavaScript",
+        "SQL",
+        "TypeScript",
+        "Cockroachdb",
+        "Dynamodb",
+        "Elasticsearch",
+        "PostgreSQL",
+        "Presto",
+        "Redis",
+        "Amazon Web Services (AWS)",
+        "Digital Ocean",
+        "Netlify",
+        "Gatsby",
+        "Next.js",
+        "Node.js",
+        "React",
+        "Spring Boot",
+        "Symfony",
+        "Apache Kafka",
+        "React Native",
+        "Spring Framework"
+      ],
+      "tools": [
+        "Bun",
+        "Dagger",
+        "Docker",
+        "Homebrew",
+        "Kubernetes",
+        "npm",
+        "pnpm",
+        "Vite",
+        "Webpack",
+        "Yarn",
+        "IntelliJ IDEA",
+        "Visual Studio Code",
+        "Xcode"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Coordinator"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Lead",
+      "deadline_discipline": "Flexible"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Medium"
+    },
+    "evidence": {
+      "personality": {
+        "team_role": "I’d describe my natural team role as a Coordinator"
+      },
+      "collaboration": {
+        "communication_style": "balance of async messages and live discussions",
+        "conflict_style": "I don’t like heavy arguments and tend to step back",
+        "leadership_preference": "I often end up taking ownership of tasks",
+        "deadline_discipline": "I’m okay adjusting timelines if the scope changes"
+      },
+      "learning_behavior": {
+        "learning_orientation": "Learning about a codebase",
+        "knowledge_sharing": "everyone feels heard and included"
+      }
+    }
+  }
+]

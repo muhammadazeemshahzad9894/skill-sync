@@ -1,0 +1,23 @@
+{
+  "technical_requirements": {
+    "skills": [
+      "React",
+      "Python",
+      "SQL",
+      "Machine Learning"
+    ],
+    "tools": [
+      "Figma"
+    ],
+    "roles": [
+      "Developer, front-end",
+      "Developer, back-end",
+      "Data scientist or machine learning specialist"
+    ]
+  },
+  "constraints": {
+    "team_size": 5,
+    "project_hours_per_week": 40.0,
+    "required_hours_per_person": 8.0
+  }
+}

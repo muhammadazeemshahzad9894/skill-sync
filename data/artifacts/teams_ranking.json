@@ -1,0 +1,49 @@
+{
+  "weights": {
+    "fit": 0.95,
+    "coverage": 1.0,
+    "diversity": 1.0
+  },
+  "ranking": [
+    {
+      "Team": 1,
+      "Score": 1.3794,
+      "Avg fit": 0.4796,
+      "Coverage %": 75.0,
+      "Avg internal sim": 0.8262,
+      "Missing items": 1,
+      "Missing roles": 1,
+      "Members": "1, 19, 4, 2"
+    },
+    {
+      "Team": 2,
+      "Score": 1.1519,
+      "Avg fit": 0.443,
+      "Coverage %": 50.0,
+      "Avg internal sim": 0.769,
+      "Missing items": 2,
+      "Missing roles": 1,
+      "Members": "16, 14, 3, 9"
+    },
+    {
+      "Team": 3,
+      "Score": 0.8695,
+      "Avg fit": 0.4799,
+      "Coverage %": 25.0,
+      "Avg internal sim": 0.8364,
+      "Missing items": 3,
+      "Missing roles": 1,
+      "Members": "12, 7, 20, 6"
+    },
+    {
+      "Team": 4,
+      "Score": 0.8959,
+      "Avg fit": 0.4654,
+      "Coverage %": 25.0,
+      "Avg internal sim": 0.7962,
+      "Missing items": 3,
+      "Missing roles": 1,
+      "Members": "15, 8, 11, 5"
+    }
+  ]
+}

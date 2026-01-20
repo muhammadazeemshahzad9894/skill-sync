@@ -1,0 +1,106 @@
+{
+  "n_teams": 2,
+  "team_size": 5,
+  "required_items_count": 5,
+  "required_roles_count": 3,
+  "teams": [
+    {
+      "team_number": 1,
+      "size": 5,
+      "coverage_percent": 60.0,
+      "covered_items": [
+        "python",
+        "react",
+        "sql"
+      ],
+      "missing_items": [
+        "figma",
+        "machine learning"
+      ],
+      "missing_roles": [
+        "Developer, front-end",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist"
+      ],
+      "avg_fit": 0.5054,
+      "avg_internal_similarity": 0.8205,
+      "member_ids": [
+        "2",
+        "5",
+        "4",
+        "3",
+        "10"
+      ],
+      "technical_coverage_summary": {
+        "required_items_specified": true,
+        "required_roles_specified": true,
+        "items_covered": false,
+        "roles_covered": false,
+        "coverage_percent": 60.0,
+        "covered_items": [
+          "python",
+          "react",
+          "sql"
+        ],
+        "missing_items": [
+          "figma",
+          "machine learning"
+        ],
+        "missing_roles": [
+          "Developer, front-end",
+          "Developer, back-end",
+          "Data scientist or machine learning specialist"
+        ]
+      }
+    },
+    {
+      "team_number": 2,
+      "size": 5,
+      "coverage_percent": 60.0,
+      "covered_items": [
+        "python",
+        "react",
+        "sql"
+      ],
+      "missing_items": [
+        "figma",
+        "machine learning"
+      ],
+      "missing_roles": [
+        "Developer, front-end",
+        "Developer, back-end",
+        "Data scientist or machine learning specialist"
+      ],
+      "avg_fit": 0.4991,
+      "avg_internal_similarity": 0.8222,
+      "member_ids": [
+        "7",
+        "1",
+        "6",
+        "8",
+        "9"
+      ],
+      "technical_coverage_summary": {
+        "required_items_specified": true,
+        "required_roles_specified": true,
+        "items_covered": false,
+        "roles_covered": false,
+        "coverage_percent": 60.0,
+        "covered_items": [
+          "python",
+          "react",
+          "sql"
+        ],
+        "missing_items": [
+          "figma",
+          "machine learning"
+        ],
+        "missing_roles": [
+          "Developer, front-end",
+          "Developer, back-end",
+          "Data scientist or machine learning specialist"
+        ]
+      }
+    }
+  ]
+}

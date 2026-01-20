@@ -1,0 +1,186 @@
+{
+    "id": "1",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Developer, full-stack",
+      "work_experience_years": "4.0",
+      "years_code": "6",
+      "employment": "Independent contractor, freelancer, or self-employed",
+      "org_size": "100 to 499 employees",
+      "industry": "Healthcare"
+    },
+    "technical": {
+      "skills": [
+        "Bash/Shell (all shells)",
+        "C#",
+        "Dart",
+        "JavaScript",
+        "Python",
+        "Rust",
+        "TypeScript",
+        "Cloud Firestore",
+        "Dynamodb",
+        "PostgreSQL",
+        "Redis",
+        "SQLite",
+        "Amazon Web Services (AWS)",
+        "Google Cloud",
+        "Netlify",
+        "Express",
+        "NestJS",
+        "Next.js",
+        "Node.js",
+        "React",
+        "Flutter",
+        "React Native"
+      ],
+      "tools": [
+        "Docker",
+        "Godot",
+        "Kubernetes",
+        "npm",
+        "Unity 3D",
+        "Vite",
+        "Webpack",
+        "Yarn",
+        "Android Studio",
+        "Visual Studio",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Teamworker"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Lead",
+      "deadline_discipline": "Strict"
+    },
+    "learning_behavior": {
+      "learning_orientation": "Medium",
+      "knowledge_sharing": "High"
+    }
+  },
+  {
+    "id": "2",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Unknown",
+      "work_experience_years": "20.0",
+      "years_code": "20",
+      "employment": "Employed, full-time",
+      "org_size": "10,000 or more employees",
+      "industry": "Unknown"
+    },
+    "technical": {
+      "skills": [
+        "Bash/Shell (all shells)",
+        "C#",
+        "HTML/CSS",
+        "PowerShell",
+        "Python",
+        "Rust",
+        "SQL",
+        "TypeScript",
+        "Dynamodb",
+        "PostgreSQL",
+        "SQLite",
+        "Amazon Web Services (AWS)",
+        "Netlify",
+        "ASP.NET CORE",
+        "Flask",
+        "Next.js",
+        "Node.js",
+        "React",
+        "Apache Spark",
+        "Hugging Face Transformers",
+        "Roslyn"
+      ],
+      "tools": [
+        "Chocolatey",
+        "Kubernetes",
+        "Make",
+        "npm",
+        "NuGet",
+        "Pip",
+        "pnpm",
+        "Terraform",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Resource-Investigator"
+    },
+    "collaboration": {
+      "communication_style": "Async",
+      "conflict_style": "Avoid",
+      "leadership_preference": "Shared",
+      "deadline_discipline": "Depends"
+    },
+    "learning_behavior": {
+      "learning_orientation": "Medium",
+      "knowledge_sharing": "Medium"
+    }
+  },
+  {
+    "id": "3",
+    "constraints": {
+      "weekly_availability_hours": "10–20"
+    },
+    "metadata": {
+      "dev_type": "Developer, back-end",
+      "work_experience_years": "8.0",
+      "years_code": "18",
+      "employment": "Employed, full-time",
+      "org_size": "2 to 9 employees",
+      "industry": "Software Development"
+    },
+    "technical": {
+      "skills": [
+        "C#",
+        "HTML/CSS",
+        "JavaScript",
+        "PowerShell",
+        "TypeScript",
+        "Cosmos DB",
+        "Microsoft SQL Server",
+        "MongoDB",
+        "Redis",
+        "SQLite",
+        "Microsoft Azure",
+        "ASP.NET",
+        "ASP.NET CORE",
+        "Blazor",
+        "jQuery",
+        ".NET (5+)",
+        ".NET Framework (1.0 - 4.8)",
+        ".NET MAUI",
+        "Xamarin"
+      ],
+      "tools": [
+        "MSBuild",
+        "NuGet",
+        "Visual Studio Solution",
+        "Visual Studio",
+        "Visual Studio Code"
+      ]
+    },
+    "personality": {
+      "Belbin_team_role": "Coordinator"
+    },
+    "collaboration": {
+      "communication_style": "Mixed",
+      "conflict_style": "Mediation",
+      "leadership_preference": "Lead",
+      "deadline_discipline": "Strict"
+    },
+    "learning_behavior": {
+      "learning_orientation": "High",
+      "knowledge_sharing": "Medium"
+    }
+  }

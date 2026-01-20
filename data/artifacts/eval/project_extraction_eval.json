@@ -1,0 +1,13 @@
+{
+  "schema_ok": true,
+  "missing_keys": [],
+  "type_errors": [],
+  "skills_count": 4,
+  "tools_count": 1,
+  "skills_duplicates": 0,
+  "tools_duplicates": 0,
+  "skills_unsupported": [],
+  "tools_unsupported": [],
+  "skills_supported_rate": 1.0,
+  "tools_supported_rate": 1.0
+}

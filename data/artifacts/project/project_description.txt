@@ -1,0 +1,1 @@
+Redesign the e-commerce platform with a modern UI/UX, faster performance, and personalized recommendations. The stack includes React for the frontend, Python services for backend and recommendation logic, SQL for data storage/analytics, Machine Learning for recommendations, and Figma for UX design and prototyping.

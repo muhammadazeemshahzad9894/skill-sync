@@ -1,0 +1,29 @@
+# SkillSync Configuration
+
+paths:
+  data: "./data"
+  outputs: "./outputs"
+  models: "./models"
+  logs: "./logs"
+
+modules:
+  json_extractor: "src/modules/member5_json_explainer/extractor.py"
+  candidate_embeddings: "src/modules/member1_candidate_embeddings/embeddings.py"
+  project_embeddings: "src/modules/member2_project_embeddings/embeddings.py"
+  team_builder: "src/modules/member3_team_builder/builder.py"
+  explanations: "src/modules/member5_json_explainer/explanations.py"
+  ui: "src/modules/member4_ui/app.py"
+
+settings:
+  embedding_model: "all-MiniLM-L6-v2"
+  embedding_dimension: 384
+  similarity_threshold: 0.7
+  max_team_size: 8
+  min_team_size: 2
+
+api_keys:
+  openai: ${OPENAI_API_KEY}  # Load from .env file
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
