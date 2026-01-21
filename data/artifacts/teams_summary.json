@@ -1,12 +1,12 @@
 {
   "n_teams": 2,
-  "team_size": 5,
+  "team_size": 3,
   "required_items_count": 5,
   "required_roles_count": 3,
   "teams": [
     {
       "team_number": 1,
-      "size": 5,
+      "size": 3,
       "coverage_percent": 60.0,
       "covered_items": [
         "python",
@@ -22,14 +22,12 @@
         "Developer, back-end",
         "Data scientist or machine learning specialist"
       ],
-      "avg_fit": 0.5054,
-      "avg_internal_similarity": 0.8205,
+      "avg_fit": 0.5359,
+      "avg_internal_similarity": 0.8357,
       "member_ids": [
         "2",
         "5",
-        "4",
-        "3",
-        "10"
+        "4"
       ],
       "technical_coverage_summary": {
         "required_items_specified": true,
@@ -55,7 +53,7 @@
     },
     {
       "team_number": 2,
-      "size": 5,
+      "size": 3,
       "coverage_percent": 60.0,
       "covered_items": [
         "python",
@@ -71,14 +69,12 @@
         "Developer, back-end",
         "Data scientist or machine learning specialist"
       ],
-      "avg_fit": 0.4991,
-      "avg_internal_similarity": 0.8222,
+      "avg_fit": 0.5126,
+      "avg_internal_similarity": 0.8523,
       "member_ids": [
         "7",
         "1",
-        "6",
-        "8",
-        "9"
+        "6"
       ],
       "technical_coverage_summary": {
         "required_items_specified": true,

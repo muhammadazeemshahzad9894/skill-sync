@@ -1,5 +1,3 @@
-
-
 from __future__ import annotations
 
 import os
@@ -63,8 +61,9 @@ with st.sidebar:
     base_url = st.text_input("Base URL", value=os.getenv("OPENAI_BASE_URL", OPENROUTER_BASE_URL))
     model = st.text_input("Model", value=os.getenv("OPENAI_MODEL", "openai/gpt-4o-mini"))
 
-tab_run, tab_explain, tab_eval, tab_raw = st.tabs(
-    ["Run Pipeline", "Explanation Report", "Evaluation", "Raw JSON"]
+# UPDATED: Added "Candidate Pool" to tabs
+tab_run, tab_explain, tab_eval, tab_raw, tab_pool = st.tabs(
+    ["Run Pipeline", "Explanation Report", "Evaluation", "Raw JSON", "Candidate Pool"]
 )
 
 
@@ -312,7 +311,7 @@ with tab_run:
         )
 
     required_hours_per_person = float(project_hours_per_week) / float(team_size) if int(team_size) > 0 else 0.0
-    st.caption(f"Auto-calculated required hours per person: **{required_hours_per_person:.1f} hrs/week**")
+    st.caption(f"Auto-calculated required required hours per person: **{required_hours_per_person:.1f} hrs/week**")
 
 
     st.subheader("Extract and save project requirements (LLM)")
@@ -375,148 +374,8 @@ with tab_run:
 
     st.divider()
 
-  
-    # Upload CSV
-
-    st.subheader("Upload candidate CSV")
-    uploaded_csv = st.file_uploader("Upload CSV", type=["csv"])
-
-    df_candidates = None
-    if uploaded_csv is not None:
-        try:
-            df_candidates = pd.read_csv(uploaded_csv)
-            st.success("CSV loaded successfully.")
-            st.write(f"Rows: {len(df_candidates)} | Columns: {len(df_candidates.columns)}")
-            st.dataframe(df_candidates.head(8), use_container_width=True)
-        except Exception as e:
-            st.error(f"Failed to read CSV: {e}")
-
-    st.divider()
-
-   
-    #candidate extraction
-   
-    st.subheader("Extract candidate profiles (LLM)")
-
-    if df_candidates is None:
-        st.info("Upload a CSV to enable candidate extraction.")
-    else:
-        max_n = min(2000, len(df_candidates))
-        n_candidates = st.number_input(
-            "How many candidates to extract?",
-            min_value=1,
-            max_value=max_n,
-            value=min(200, max_n),
-            step=1,
-        )
-
-        pool_size_ui = st.number_input(
-            "Team builder pool size (top K candidates)",
-            min_value=10,
-            max_value=2000,
-            value=int(st.session_state.get("pool_size_ui", 200)),
-            step=10,
-            help="Team builder will consider the top K candidates by project fit.",
-        )
-        st.session_state["pool_size_ui"] = int(pool_size_ui)
-
-        extract_candidates_btn = st.button(
-            "Extract candidates",
-            type="primary",
-            disabled=not api_key.strip(),
-        )
-
-        if extract_candidates_btn:
-            cfg = ExtractorConfig(
-                model=model,
-                limit=int(n_candidates),
-                retries=1,
-                request_timeout_s=60,
-                sleep_between_calls_s=0.2,
-                debug=False,
-            )
-
-            extractor = CandidateProfileExtractor(
-                api_key=api_key,
-                base_url=base_url,
-                config=cfg,
-            )
-
-            limit = min(int(n_candidates), len(df_candidates))
-            st.write(f"Extracting {limit} candidates...")
-
-            progress = st.progress(0.0)
-            status = st.empty()
-
-            profiles: list[dict] = []
-            inputs: dict[str, str] = {}
-
-            t0 = time.perf_counter()
-            for i in range(limit):
-                row = df_candidates.iloc[i].to_dict()
-                cid = extractor.as_str(row.get("Candidate ID"))
-                status.write(f"Extracting {i + 1}/{limit} (Candidate ID={cid})")
-
-                try:
-                    text = extractor.build_profile_text(row)
-                    inputs[cid] = text
-                    prof = extractor.extract_one(row, i=i)
-                    profiles.append(prof)
-                except Exception as e:
-                    profiles.append({"id": cid, "error": str(e)})
-
-                progress.progress((i + 1) / limit)
-
-            CandidateProfileExtractor.save_json(profiles, str(cand_profiles_evid_path))
-            CandidateProfileExtractor.save_json(
-                [CandidateProfileExtractor.strip_evidence(p) for p in profiles],
-                str(cand_profiles_clean_path),
-            )
-            CandidateProfileExtractor.save_json(inputs, str(cand_inputs_path_default))
-
-            log_latency(
-                log_path=latency_log_path,
-                stage="candidate_extraction",
-                total_s=time.perf_counter() - t0,
-                model=model,
-                base_url=base_url,
-                n_candidates=int(limit),
-            )
-
-            st.success("Candidate extraction finished.")
-            st.code(str(cand_profiles_clean_path))
-            st.code(str(cand_profiles_evid_path))
-            st.code(str(cand_inputs_path_default))
-
-            if profiles:
-                st.subheader("Example: first extracted profile")
-                st.json(profiles[0])
-
-            with st.spinner("Auto-generating candidate embeddings..."):
-                try:
-                    gen_cand_emb_dissim(cand_profiles_clean_path)
-                    st.success("Candidate embeddings generated automatically.")
-                    st.code(str(cand_emb_path))
-                    st.code(str(cand_ids_path))
-                    st.code(str(cand_dissim_path))
-                except Exception as e:
-                    st.error(f"Auto candidate embeddings failed: {e}")
-
-            # If project requirements already exist, auto compute similarity now too
-            if _file_ok(proj_req_path) and _file_ok(cand_emb_path) and _file_ok(cand_ids_path):
-                with st.spinner("Auto-embedding project and computing similarity..."):
-                    try:
-                        gen_proj_emb_sim(proj_req_path)
-                        st.success("Candidate-project similarity generated automatically.")
-                        st.code(str(sim_json_path))
-                    except Exception as e:
-                        st.error(f"Auto similarity failed: {e}")
-
-    st.divider()
 
     # Team Builder
-
-    st.subheader("Team Builder")
 
     st.subheader("Team Builder")
     n_teams_ui = st.number_input("How many teams to build?", min_value=1, max_value=50, value=2, step=1)
@@ -995,3 +854,190 @@ with tab_raw:
                 st.caption(f"(Binary file) {p}")
         except Exception as e:
             st.warning(f"Could not display {p.name}: {e}")
+
+with tab_pool:
+    st.header("Manage Candidate Pool")
+    
+    # 1. Upload CSV
+    st.subheader("1. Upload candidate CSV")
+    uploaded_csv = st.file_uploader("Upload CSV", type=["csv"])
+
+    df_candidates = None
+    if uploaded_csv is not None:
+        try:
+            df_candidates = pd.read_csv(uploaded_csv)
+            st.success("CSV loaded successfully.")
+            st.write(f"Rows: {len(df_candidates)} | Columns: {len(df_candidates.columns)}")
+            st.dataframe(df_candidates.head(8), use_container_width=True)
+        except Exception as e:
+            st.error(f"Failed to read CSV: {e}")
+
+    st.divider()
+
+    # 2. Candidate Extraction
+    st.subheader("2. Extract candidate profiles (LLM)")
+
+    if df_candidates is None:
+        st.info("Upload a CSV above to enable candidate extraction.")
+    else:
+        max_n = min(2000, len(df_candidates))
+        n_candidates = st.number_input(
+            "How many candidates to extract?",
+            min_value=1,
+            max_value=max_n,
+            value=min(200, max_n),
+            step=1,
+        )
+        
+        # We set the pool size here, storing it in session state so Tab 1 can see it
+        pool_size_ui = st.number_input(
+            "Team builder pool size (top K candidates)",
+            min_value=10,
+            max_value=2000,
+            value=int(st.session_state.get("pool_size_ui", 200)),
+            step=10,
+            help="Team builder will consider the top K candidates by project fit.",
+        )
+        st.session_state["pool_size_ui"] = int(pool_size_ui)
+
+        extract_candidates_btn = st.button(
+            "Extract candidates",
+            type="primary",
+            disabled=not api_key.strip(),
+        )
+
+        if extract_candidates_btn:
+            cfg = ExtractorConfig(
+                model=model,
+                limit=int(n_candidates),
+                retries=1,
+                request_timeout_s=60,
+                sleep_between_calls_s=0.2,
+                debug=False,
+            )
+
+            extractor = CandidateProfileExtractor(
+                api_key=api_key,
+                base_url=base_url,
+                config=cfg,
+            )
+
+            limit = min(int(n_candidates), len(df_candidates))
+            st.write(f"Extracting {limit} candidates...")
+
+            progress = st.progress(0.0)
+            status = st.empty()
+
+            profiles: list[dict] = []
+            inputs: dict[str, str] = {}
+
+            t0 = time.perf_counter()
+            for i in range(limit):
+                row = df_candidates.iloc[i].to_dict()
+                cid = extractor.as_str(row.get("Candidate ID"))
+                status.write(f"Extracting {i + 1}/{limit} (Candidate ID={cid})")
+
+                try:
+                    text = extractor.build_profile_text(row)
+                    inputs[cid] = text
+                    prof = extractor.extract_one(row, i=i)
+                    profiles.append(prof)
+                except Exception as e:
+                    profiles.append({"id": cid, "error": str(e)})
+
+                progress.progress((i + 1) / limit)
+
+            CandidateProfileExtractor.save_json(profiles, str(cand_profiles_evid_path))
+            CandidateProfileExtractor.save_json(
+                [CandidateProfileExtractor.strip_evidence(p) for p in profiles],
+                str(cand_profiles_clean_path),
+            )
+            CandidateProfileExtractor.save_json(inputs, str(cand_inputs_path_default))
+
+            log_latency(
+                log_path=latency_log_path,
+                stage="candidate_extraction",
+                total_s=time.perf_counter() - t0,
+                model=model,
+                base_url=base_url,
+                n_candidates=int(limit),
+            )
+
+            st.success("Candidate extraction finished.")
+            st.code(str(cand_profiles_clean_path))
+            st.code(str(cand_profiles_evid_path))
+            st.code(str(cand_inputs_path_default))
+
+            if profiles:
+                st.subheader("Example: first extracted profile")
+                st.json(profiles[0])
+
+            with st.spinner("Auto-generating candidate embeddings..."):
+                try:
+                    gen_cand_emb_dissim(cand_profiles_clean_path)
+                    st.success("Candidate embeddings generated automatically.")
+                    st.code(str(cand_emb_path))
+                    st.code(str(cand_ids_path))
+                    st.code(str(cand_dissim_path))
+                except Exception as e:
+                    st.error(f"Auto candidate embeddings failed: {e}")
+
+            # Auto compute similarity if project reqs exist
+            if _file_ok(proj_req_path) and _file_ok(cand_emb_path) and _file_ok(cand_ids_path):
+                with st.spinner("Auto-embedding project and computing similarity..."):
+                    try:
+                        gen_proj_emb_sim(proj_req_path)
+                        st.success("Candidate-project similarity generated automatically.")
+                        st.code(str(sim_json_path))
+                    except Exception as e:
+                        st.error(f"Auto similarity failed: {e}")
+
+    st.divider()
+    
+    # 3. View Existing Pool (The code that was originally in this tab)
+    st.subheader("3. Current Candidate Pool")
+    
+    # Priority 1: Check if user has a custom file at ROOT/data/candidate_profiles.json
+    custom_profiles_path = ROOT / "data" / "artifacts" / "extraction" /"candidate_profiles.json"
+    
+    # Priority 2: Use the app's default generated path
+    path_to_load = None
+    
+    if _file_ok(custom_profiles_path):
+        path_to_load = custom_profiles_path
+        st.caption(f"Loaded from: {path_to_load}")
+    elif _file_ok(cand_profiles_clean_path):
+        path_to_load = cand_profiles_clean_path
+        st.caption(f"Loaded from: {path_to_load}")
+    else:
+        st.info("No candidate profiles found. Please upload and extract above.")
+
+    if path_to_load:
+        try:
+            profiles_obj = load_profiles_as_objects(path_to_load)
+            if profiles_obj:
+                data_for_df = []
+                for p in profiles_obj:
+                    data_for_df.append({
+                        "ID": p.id,
+                        "Name": p.name,
+                        "Role": p.role,
+                        "Experience (Yrs)": p.experience_years,
+                        "Availability (Hrs)": p.availability_hours,
+                        "Skills": ", ".join(p.skills[:10]) + ("..." if len(p.skills) > 10 else ""),
+                        "Tools": ", ".join(p.tools[:10]) + ("..." if len(p.tools) > 10 else ""),
+                        "Comm Style": p.collaboration_style
+                    })
+                df_pool = pd.DataFrame(data_for_df)
+                st.dataframe(df_pool, use_container_width=True, hide_index=True)
+                st.caption(f"Total candidates: {len(df_pool)}")
+            else:
+                raw_data = json.loads(path_to_load.read_text(encoding="utf-8"))
+                if isinstance(raw_data, list):
+                    st.dataframe(pd.DataFrame(raw_data), use_container_width=True)
+                else:
+                    st.json(raw_data)
+        except Exception as e:
+            st.error(f"Error loading profiles: {e}")
+    
+ 

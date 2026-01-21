@@ -6,7 +6,7 @@
   "teams": [
     {
       "team_number": 1,
-      "size": 5,
+      "size": 3,
       "coverage_percent": 60.0,
       "covered_items": [
         "python",
@@ -21,10 +21,10 @@
         "Data scientist or machine learning specialist",
         "Developer, front-end"
       ],
-      "avg_internal_similarity": 0.8205,
+      "avg_internal_similarity": 0.8357,
       "max_contribution_%": 60.0,
       "hours": {
-        "total_team_min_hours": 45.0,
+        "total_team_min_hours": 30.0,
         "hours_by_member": [
           {
             "candidate_id": "2",
@@ -37,17 +37,9 @@
           {
             "candidate_id": "4",
             "min_hours_per_week": 10.0
-          },
-          {
-            "candidate_id": "3",
-            "min_hours_per_week": 10.0
-          },
-          {
-            "candidate_id": "10",
-            "min_hours_per_week": 5.0
           }
         ],
-        "hero_share_%": 22.2
+        "hero_share_%": 33.3
       },
       "feasible_by_hours": true,
       "member_distribution": [
@@ -74,27 +66,12 @@
           "contributed_items": [
             "python"
           ]
-        },
-        {
-          "candidate_id": "3",
-          "n_contributed": 0,
-          "contribution_%": 0.0,
-          "contributed_items": []
-        },
-        {
-          "candidate_id": "10",
-          "n_contributed": 2,
-          "contribution_%": 40.0,
-          "contributed_items": [
-            "react",
-            "sql"
-          ]
         }
       ]
     },
     {
       "team_number": 2,
-      "size": 5,
+      "size": 3,
       "coverage_percent": 60.0,
       "covered_items": [
         "python",
@@ -107,12 +84,13 @@
       ],
       "missing_roles": [
         "Data scientist or machine learning specialist",
+        "Developer, back-end",
         "Developer, front-end"
       ],
-      "avg_internal_similarity": 0.8222,
+      "avg_internal_similarity": 0.8523,
       "max_contribution_%": 40.0,
       "hours": {
-        "total_team_min_hours": 100.0,
+        "total_team_min_hours": 50.0,
         "hours_by_member": [
           {
             "candidate_id": "7",
@@ -125,14 +103,6 @@
           {
             "candidate_id": "6",
             "min_hours_per_week": 20.0
-          },
-          {
-            "candidate_id": "8",
-            "min_hours_per_week": 10.0
-          },
-          {
-            "candidate_id": "9",
-            "min_hours_per_week": 40.0
           }
         ],
         "hero_share_%": 40.0
@@ -159,23 +129,6 @@
         },
         {
           "candidate_id": "6",
-          "n_contributed": 1,
-          "contribution_%": 20.0,
-          "contributed_items": [
-            "sql"
-          ]
-        },
-        {
-          "candidate_id": "8",
-          "n_contributed": 2,
-          "contribution_%": 40.0,
-          "contributed_items": [
-            "python",
-            "sql"
-          ]
-        },
-        {
-          "candidate_id": "9",
           "n_contributed": 1,
           "contribution_%": 20.0,
           "contributed_items": [

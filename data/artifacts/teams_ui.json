@@ -12,7 +12,7 @@
       "Deadline": "Depends",
       "Availability": 10,
       "Fit": 0.5287,
-      "Avg dissim to teammates": 0.1422,
+      "Avg dissim to teammates": 0.1357,
       "Skills (sample)": "Bash/Shell (all shells), C#, HTML/CSS, PowerShell, Python, Rust, SQL, TypeScript",
       "Tools (sample)": "Chocolatey, Kubernetes, Make, npm, NuGet, Pip, pnpm, Terraform"
     },
@@ -28,7 +28,7 @@
       "Deadline": "Strict",
       "Availability": 10,
       "Fit": 0.5669,
-      "Avg dissim to teammates": 0.1685,
+      "Avg dissim to teammates": 0.1714,
       "Skills (sample)": "C#, JavaScript, MATLAB, Microsoft SQL Server, MongoDB, PostgreSQL, Amazon Web Services (AWS), Google Cloud",
       "Tools (sample)": "Docker, NuGet, Rider, Visual Studio, Visual Studio Code"
     },
@@ -44,41 +44,9 @@
       "Deadline": "Depends",
       "Availability": 10,
       "Fit": 0.5122,
-      "Avg dissim to teammates": 0.1993,
+      "Avg dissim to teammates": 0.1858,
       "Skills (sample)": "Assembly, Bash/Shell (all shells), C, C++, Go, HTML/CSS, Java, JavaScript",
       "Tools (sample)": "Docker, Google Test, Make, npm, Emacs, IPython, Jupyter Notebook/JupyterLab, Neovim"
-    },
-    {
-      "Candidate ID": "3",
-      "Role": "Developer, back-end",
-      "Req match (skills and tools)": "None",
-      "Req coverage %": 0.0,
-      "Belbin role": "Coordinator",
-      "Comm style": "Mixed",
-      "Conflict style": "Mediation",
-      "Leadership": "Lead",
-      "Deadline": "Strict",
-      "Availability": 10,
-      "Fit": 0.4837,
-      "Avg dissim to teammates": 0.1947,
-      "Skills (sample)": "C#, HTML/CSS, JavaScript, PowerShell, TypeScript, Cosmos DB, Microsoft SQL Server, MongoDB",
-      "Tools (sample)": "MSBuild, NuGet, Visual Studio Solution, Visual Studio, Visual Studio Code"
-    },
-    {
-      "Candidate ID": "10",
-      "Role": "Developer, full-stack",
-      "Req match (skills and tools)": "React, SQL",
-      "Req coverage %": 40.0,
-      "Belbin role": "Coordinator",
-      "Comm style": "Mixed",
-      "Conflict style": "Avoid",
-      "Leadership": "Lead",
-      "Deadline": "Flexible",
-      "Availability": 5,
-      "Fit": 0.4354,
-      "Avg dissim to teammates": 0.1926,
-      "Skills (sample)": "Bash/Shell (all shells), HTML/CSS, Java, JavaScript, SQL, TypeScript, Cockroachdb, Dynamodb",
-      "Tools (sample)": "Bun, Dagger, Docker, Homebrew, Kubernetes, npm, pnpm, Vite"
     }
   ],
   [
@@ -94,7 +62,7 @@
       "Deadline": "Flexible",
       "Availability": 20,
       "Fit": 0.528,
-      "Avg dissim to teammates": 0.1496,
+      "Avg dissim to teammates": 0.1395,
       "Skills (sample)": "C#, C++, Python, SQL, TypeScript, MariaDB, MongoDB, MySQL",
       "Tools (sample)": "Ninja, Unity 3D, CLion, PyCharm, Qt Creator, Rider, Visual Studio Code, WebStorm"
     },
@@ -110,7 +78,7 @@
       "Deadline": "Strict",
       "Availability": 10,
       "Fit": 0.4882,
-      "Avg dissim to teammates": 0.1651,
+      "Avg dissim to teammates": 0.158,
       "Skills (sample)": "Bash/Shell (all shells), C#, Dart, JavaScript, Python, Rust, TypeScript, Cloud Firestore",
       "Tools (sample)": "Docker, Godot, Kubernetes, npm, Unity 3D, Vite, Webpack, Yarn"
     },
@@ -126,41 +94,9 @@
       "Deadline": "Strict",
       "Availability": 20,
       "Fit": 0.5216,
-      "Avg dissim to teammates": 0.172,
+      "Avg dissim to teammates": 0.1456,
       "Skills (sample)": "C#, HTML/CSS, JavaScript, PowerShell, SQL, Dynamodb, Microsoft SQL Server, Redis",
       "Tools (sample)": "MSBuild, Visual Studio Solution, Notepad++, Visual Studio, Visual Studio Intellicode"
-    },
-    {
-      "Candidate ID": "8",
-      "Role": "Developer, back-end",
-      "Req match (skills and tools)": "Python, SQL",
-      "Req coverage %": 40.0,
-      "Belbin role": "Monitor-Evaluator",
-      "Comm style": "Sync",
-      "Conflict style": "Avoid",
-      "Leadership": "Follow",
-      "Deadline": "Flexible",
-      "Availability": 10,
-      "Fit": 0.4636,
-      "Avg dissim to teammates": 0.2444,
-      "Skills (sample)": "Bash/Shell (all shells), Go, Java, JavaScript, Lisp, Python, Rust, SQL",
-      "Tools (sample)": "Docker, Homebrew, Kubernetes, Nix, npm, Pip, Podman, Emacs"
-    },
-    {
-      "Candidate ID": "9",
-      "Role": "Developer, full-stack",
-      "Req match (skills and tools)": "SQL",
-      "Req coverage %": 20.0,
-      "Belbin role": "Implementer",
-      "Comm style": "Mixed",
-      "Conflict style": "Mediation",
-      "Leadership": "Lead",
-      "Deadline": "Depends",
-      "Availability": 40,
-      "Fit": 0.4941,
-      "Avg dissim to teammates": 0.1577,
-      "Skills (sample)": "C#, HTML/CSS, JavaScript, SQL, TypeScript, Couchbase, Microsoft SQL Server, Microsoft Azure",
-      "Tools (sample)": "Docker, Kubernetes, NuGet, Notepad++, Visual Studio, Visual Studio Code"
     }
   ]
 ]
