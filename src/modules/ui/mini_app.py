@@ -51,8 +51,7 @@ import modules.EXPLANATION.team_report as explain_report
 st.set_page_config(page_title="SkillSync - Team Formation", layout="wide")
 st.title("SkillSync - Team Formation")
 st.caption(
-    "Project description → project constraints → extract project requirements → "
-    "upload candidates → extract profiles → embeddings → similarity → build teams → evaluate → explanation report."
+    "Project description → project constraints → extract project requirements → project + candidate embeddings → similarity → build teams → evaluate → explanation report."
 )
 
 with st.sidebar:
@@ -291,7 +290,7 @@ with tab_run:
     description = st.text_area(
         "Paste your project description (what you want to build)",
         height=180,
-        placeholder="Example: Redesign an e-commerce UI, add recommendations, improve performance, etc.",
+        placeholder="Example: Describe your project's goals, core technologies (e.g., React, Python, AWS), and the specific roles you need to fill (e.g., Lead Architect, Frontend Specialist). The more detail you provide, the better SkillSync can align candidate traits with your project's needs...",
     )
 
     st.subheader("Project constraints")
@@ -311,7 +310,7 @@ with tab_run:
         )
 
     required_hours_per_person = float(project_hours_per_week) / float(team_size) if int(team_size) > 0 else 0.0
-    st.caption(f"Auto-calculated required required hours per person: **{required_hours_per_person:.1f} hrs/week**")
+    st.caption(f"Auto-calculated required hours per person: **{required_hours_per_person:.1f} hrs/week**")
 
 
     st.subheader("Extract and save project requirements (LLM)")
