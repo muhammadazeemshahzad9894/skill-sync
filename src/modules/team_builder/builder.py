@@ -375,7 +375,7 @@ def score_candidate_for_team(
     alpha: float = 0.55,   # fit
     beta: float = 0.25,    # diversity
     gamma: float = 0.20,   # coverage gain
-    rho: float = 0.10,     # role gain (soft)
+    rho: float = 0.2,     # role gain (soft)
     delta_overlap: float = 0.15,  # overlap redundancy penalty
    
     role_threshold: float = 0.55,

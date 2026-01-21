@@ -67,3 +67,4 @@
 {"stage": "project_extraction", "total_s": 0.006, "ts_utc": "2026-01-21T12:19:42.126476+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 315}
 {"stage": "explanation_report", "total_s": 28.6765, "ts_utc": "2026-01-21T12:21:03.664629+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1"}
 {"stage": "project_extraction", "total_s": 0.0073, "ts_utc": "2026-01-21T12:21:45.194043+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "description_chars": 315}
+{"stage": "candidate_extraction", "total_s": 2868.2812, "ts_utc": "2026-01-21T14:24:47.455066+00:00", "model": "openai/gpt-4o-mini", "base_url": "https://openrouter.ai/api/v1", "n_candidates": 200}
