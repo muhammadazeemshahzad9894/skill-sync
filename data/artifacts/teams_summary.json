@@ -1,100 +1,82 @@
 {
   "n_teams": 2,
-  "team_size": 3,
-  "required_items_count": 5,
-  "required_roles_count": 3,
+  "team_size": 4,
+  "required_items_count": 3,
+  "required_roles_count": 1,
   "teams": [
     {
       "team_number": 1,
-      "size": 3,
-      "coverage_percent": 60.0,
+      "size": 4,
+      "coverage_percent": 100.0,
       "covered_items": [
-        "python",
-        "react",
-        "sql"
+        "node.js",
+        "postgresql",
+        "react"
       ],
-      "missing_items": [
-        "figma",
-        "machine learning"
-      ],
+      "missing_items": [],
       "missing_roles": [
-        "Developer, front-end",
-        "Developer, back-end",
-        "Data scientist or machine learning specialist"
+        "Developer, full-stack"
       ],
-      "avg_fit": 0.5359,
-      "avg_internal_similarity": 0.8357,
+      "avg_fit": 0.6786,
+      "avg_internal_similarity": 0.7975,
       "member_ids": [
-        "2",
-        "5",
-        "4"
+        "122",
+        "191",
+        "113",
+        "70"
       ],
       "technical_coverage_summary": {
         "required_items_specified": true,
         "required_roles_specified": true,
-        "items_covered": false,
+        "items_covered": true,
         "roles_covered": false,
-        "coverage_percent": 60.0,
+        "coverage_percent": 100.0,
         "covered_items": [
-          "python",
-          "react",
-          "sql"
+          "node.js",
+          "postgresql",
+          "react"
         ],
-        "missing_items": [
-          "figma",
-          "machine learning"
-        ],
+        "missing_items": [],
         "missing_roles": [
-          "Developer, front-end",
-          "Developer, back-end",
-          "Data scientist or machine learning specialist"
+          "Developer, full-stack"
         ]
       }
     },
     {
       "team_number": 2,
-      "size": 3,
-      "coverage_percent": 60.0,
+      "size": 4,
+      "coverage_percent": 100.0,
       "covered_items": [
-        "python",
-        "react",
-        "sql"
+        "node.js",
+        "postgresql",
+        "react"
       ],
-      "missing_items": [
-        "figma",
-        "machine learning"
-      ],
+      "missing_items": [],
       "missing_roles": [
-        "Developer, front-end",
-        "Developer, back-end",
-        "Data scientist or machine learning specialist"
+        "Developer, full-stack"
       ],
-      "avg_fit": 0.5126,
-      "avg_internal_similarity": 0.8523,
+      "avg_fit": 0.6538,
+      "avg_internal_similarity": 0.8113,
       "member_ids": [
-        "7",
-        "1",
-        "6"
+        "167",
+        "132",
+        "117",
+        "43"
       ],
       "technical_coverage_summary": {
         "required_items_specified": true,
         "required_roles_specified": true,
-        "items_covered": false,
+        "items_covered": true,
         "roles_covered": false,
-        "coverage_percent": 60.0,
+        "coverage_percent": 100.0,
         "covered_items": [
-          "python",
-          "react",
-          "sql"
+          "node.js",
+          "postgresql",
+          "react"
         ],
-        "missing_items": [
-          "figma",
-          "machine learning"
-        ],
+        "missing_items": [],
         "missing_roles": [
-          "Developer, front-end",
-          "Developer, back-end",
-          "Data scientist or machine learning specialist"
+          "Developer, full-stack"
         ]
       }
     }

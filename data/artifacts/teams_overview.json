@@ -2,23 +2,23 @@
   "rows": [
     {
       "Team": 1,
-      "Avg fit": 0.5359,
-      "Coverage (skills and tools) %": 60.0,
-      "Avg internal sim": 0.8357,
-      "Avg internal dissim": 0.1643,
-      "Missing roles (list)": "Developer, front-end, Developer, back-end, Data scientist or machine learning specialist",
-      "Missing skills and tools (list)": "figma, machine learning",
-      "Members": "2, 5, 4"
+      "Avg fit": 0.6786,
+      "Coverage (skills and tools) %": 100.0,
+      "Avg internal sim": 0.7975,
+      "Avg internal dissim": 0.2025,
+      "Missing roles (list)": "Developer, full-stack",
+      "Missing skills and tools (list)": "None",
+      "Members": "122, 191, 113, 70"
     },
     {
       "Team": 2,
-      "Avg fit": 0.5126,
-      "Coverage (skills and tools) %": 60.0,
-      "Avg internal sim": 0.8523,
-      "Avg internal dissim": 0.1477,
-      "Missing roles (list)": "Developer, front-end, Developer, back-end, Data scientist or machine learning specialist",
-      "Missing skills and tools (list)": "figma, machine learning",
-      "Members": "7, 1, 6"
+      "Avg fit": 0.6538,
+      "Coverage (skills and tools) %": 100.0,
+      "Avg internal sim": 0.8113,
+      "Avg internal dissim": 0.1887,
+      "Missing roles (list)": "Developer, full-stack",
+      "Missing skills and tools (list)": "None",
+      "Members": "167, 132, 117, 43"
     }
   ]
 }

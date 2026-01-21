@@ -1,23 +1,18 @@
 {
   "technical_requirements": {
     "skills": [
+      "Node.js",
       "React",
-      "Python",
-      "SQL",
-      "Machine Learning"
+      "PostgreSQL"
     ],
-    "tools": [
-      "Figma"
-    ],
+    "tools": [],
     "roles": [
-      "Developer, front-end",
-      "Developer, back-end",
-      "Data scientist or machine learning specialist"
+      "Developer, full-stack"
     ]
   },
   "constraints": {
-    "team_size": 5,
-    "project_hours_per_week": 35.0,
-    "required_hours_per_person": 7.0
+    "team_size": 4,
+    "project_hours_per_week": 50.0,
+    "required_hours_per_person": 12.5
   }
 }

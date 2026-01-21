@@ -1,0 +1,77 @@
+{
+"technical_requirements": {
+"skills": [
+"Node.js",
+"React",
+"PostgreSQL"
+],
+"tools": [],
+"roles": [
+"Developer, back-end",
+"Developer, front-end",
+"Data engineer"
+]
+}
+}
+
+{
+"technical_requirements": {
+"skills": [
+"Flutter",
+"Machine Learning"
+],
+"tools": [],
+"roles": [
+"Developer, mobile",
+"Data scientist or machine learning specialist"
+]
+}
+}
+
+{
+"technical_requirements": {
+"skills": [
+"Python",
+"Machine Learning",
+"React"
+],
+"tools": [],
+"roles": [
+"Developer, back-end",
+"Developer, front-end",
+"Data scientist or machine learning specialist"
+]
+}
+}
+
+{
+"technical_requirements": {
+"skills": [
+"React",
+"Node.js",
+"Amazon Web Services (AWS)"
+],
+"tools": [],
+"roles": [
+"Developer, back-end",
+"Developer, front-end",
+"Cloud infrastructure engineer"
+]
+}
+}
+
+{
+"technical_requirements": {
+"skills": [
+"React",
+"Power BI",
+"SQL"
+],
+"tools": [],
+"roles": [
+"Developer, front-end",
+"Data engineer",
+"Data or business analyst"
+]
+}
+}
